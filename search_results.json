@@ -1,0 +1,534 @@
+{
+  "search_metadata": {
+    "id": "6605391df55d772ef2fa04f9",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/732f9a4441ad81cd/6605391df55d772ef2fa04f9.json",
+    "created_at": "2024-03-28 09:32:13 UTC",
+    "processed_at": "2024-03-28 09:32:13 UTC",
+    "google_local_url": "https://www.google.com/search?q=Electrician+Pune&uule=w+CAIQICIWUHVuZSxNYWhhcmFzaHRyYSxJbmRpYQ&hl=en&gl=us&tbm=lcl",
+    "raw_html_file": "https://serpapi.com/searches/732f9a4441ad81cd/6605391df55d772ef2fa04f9.html",
+    "total_time_taken": 1.98
+  },
+  "search_parameters": {
+    "engine": "google_local",
+    "q": "Electrician Pune",
+    "location_requested": "Pune",
+    "location_used": "Pune,Maharashtra,India",
+    "google_domain": "google.com",
+    "hl": "en",
+    "gl": "us",
+    "device": "desktop"
+  },
+  "local_results": [
+    {
+      "position": 1,
+      "rating": 4.7,
+      "reviews_original": "(82)",
+      "reviews": 82,
+      "description": "\"Great Knowledge about his Job. Finishes work on time.\"",
+      "place_id": "10886244226224617057",
+      "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=us&google_domain=google.com&hl=en&location=Pune&ludocid=10886244226224617057&q=Electrician+Pune",
+      "thumbnail": "https://serpapi.com/searches/6605391df55d772ef2fa04f9/images/4a4e3f2e99afbe30b55f59f58a42291b54a322af1ceec1a9f78bfae2033d0cee.png",
+      "gps_coordinates": {
+        "latitude": 18.529052,
+        "longitude": 73.82882529999999
+      },
+      "links": {
+        "website": "https://electrician-santosh.business.site/?utm_source=gmb&utm_medium",
+        "directions": "https://www.google.com/maps/dir//Electrician+santosh,+12,+Janawadi+Rd,+Niljyoti+Society,+Gokhalenagar,+Pune,+Maharashtra+411016,+India/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bc2bf26dab7d2ef:0x9713b5722a43f661?sa=X&ved=2ahUKEwi2pdCW05aFAxW2hIkEHePoBdUQ48ADegQIFRAA"
+      },
+      "title": "Electrician santosh",
+      "type": "Electrical installation service",
+      "address": "Pune, Maharashtra, India",
+      "years_in_business": "7+ years in business",
+      "phone": "+91 90498 89823",
+      "hours": "Open 24 hours"
+    },
+    {
+      "position": 2,
+      "rating": 4.7,
+      "reviews_original": "(75)",
+      "reviews": 75,
+      "description": "Onsite services·Online estimates",
+      "place_id": "2690313796566270476",
+      "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=us&google_domain=google.com&hl=en&location=Pune&ludocid=2690313796566270476&q=Electrician+Pune",
+      "gps_coordinates": {
+        "latitude": 18.5159205,
+        "longitude": 73.84603419999999
+      },
+      "service_options": {
+        "onsite_services": true,
+        "online_estimates": true
+      },
+      "links": {
+        "website": "https://urjetaelectricals.com/",
+        "directions": "https://www.google.com/maps/dir//urjeta+electricals+Electrician+Services,+135+narayan+peth+pune+411030,+Pune,+Maharashtra+411030,+India/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bc2c17edd5e442b:0x2555ea24e2aa420c?sa=X&ved=2ahUKEwi2pdCW05aFAxW2hIkEHePoBdUQ48ADegQIFBAA"
+      },
+      "title": "urjeta electricals Electrician Services",
+      "type": "Electrical installation service",
+      "address": "Pune, Maharashtra, India",
+      "years_in_business": "15+ years in business",
+      "phone": "+91 78880 18098",
+      "hours": "Open 24 hours"
+    },
+    {
+      "position": 3,
+      "rating": 4.9,
+      "reviews_original": "(67)",
+      "reviews": 67,
+      "description": "Onsite services",
+      "place_id": "8001662107329211527",
+      "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=us&google_domain=google.com&hl=en&location=Pune&ludocid=8001662107329211527&q=Electrician+Pune",
+      "gps_coordinates": {
+        "latitude": 18.5118461,
+        "longitude": 73.8572884
+      },
+      "service_options": {
+        "onsite_services": true
+      },
+      "links": {
+        "website": "https://www.facebook.com/sagarbhosale2201/",
+        "directions": "https://www.google.com/maps/dir//Sagar+Electricals,+Shop+No+4,+342+Shukrawar+Peth,+Samruddhi+Apartments,+Pune,+Maharashtra+411002,+India/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bc2c134bcbcc761:0x6f0b9d4ac00fac87?sa=X&ved=2ahUKEwi2pdCW05aFAxW2hIkEHePoBdUQ48ADegQIExAA"
+      },
+      "title": "Sagar Electricals",
+      "type": "Electrical installation service",
+      "address": "Pune, Maharashtra, India",
+      "years_in_business": "20+ years in business",
+      "phone": "+91 98224 23687",
+      "hours": "Open ⋅ Closes 6 PM"
+    },
+    {
+      "position": 4,
+      "rating": 4.9,
+      "reviews_original": "(70)",
+      "reviews": 70,
+      "description": "\"Good professional fast and punctual\"",
+      "place_id": "6336875288596877046",
+      "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=us&google_domain=google.com&hl=en&location=Pune&ludocid=6336875288596877046&q=Electrician+Pune",
+      "thumbnail": "https://serpapi.com/searches/6605391df55d772ef2fa04f9/images/4a4e3f2e99afbe30705d2227fb41277e599146a5ee8b20e09f2ef198cb7f9e24.png",
+      "gps_coordinates": {
+        "latitude": 18.5306796,
+        "longitude": 73.898005
+      },
+      "links": {
+        "directions": "https://www.google.com/maps/dir//MA+Electrician,+Koregaon+Park,+Pune,+Maharashtra+411001,+India/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bc2c1eda0a98cbf:0x57f11a8032c48ef6?sa=X&ved=2ahUKEwi2pdCW05aFAxW2hIkEHePoBdUQ48ADegQIEhAA"
+      },
+      "title": "MA Electrician",
+      "type": "Electrical installation service",
+      "address": "Pune, Maharashtra, India",
+      "years_in_business": "5+ years in business",
+      "phone": "+91 99601 83017",
+      "hours": "Open 24 hours"
+    },
+    {
+      "position": 5,
+      "rating": 4.8,
+      "reviews_original": "(231)",
+      "reviews": 231,
+      "description": "Onsite services·Online estimates",
+      "place_id": "5788913187373294100",
+      "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=us&google_domain=google.com&hl=en&location=Pune&ludocid=5788913187373294100&q=Electrician+Pune",
+      "gps_coordinates": {
+        "latitude": 18.5525157,
+        "longitude": 73.896704
+      },
+      "service_options": {
+        "onsite_services": true,
+        "online_estimates": true
+      },
+      "links": {
+        "website": "https://bright-life-electrician.business.site/?utm_source=gmb&utm_medium=referral",
+        "directions": "https://www.google.com/maps/dir//Bright+life+electrician+%26+electrical+contractor,+suhel+khan+srno115+mental+hospital,+6,+gali+no5,+Rajiv+Gandhi+Nagar,+Yerawada,+Pune,+Maharashtra+411006,+India/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bc2c19e7bea9637:0x505659df78f5a214?sa=X&ved=2ahUKEwi2pdCW05aFAxW2hIkEHePoBdUQ48ADegQIDRAA"
+      },
+      "title": "Bright life electrician & electrical contractor",
+      "type": "Electrical installation service",
+      "address": "Pune, Maharashtra, India",
+      "years_in_business": "10+ years in business",
+      "phone": "+91 98224 53202",
+      "hours": "Open 24 hours"
+    },
+    {
+      "position": 6,
+      "rating": 5,
+      "reviews_original": "(9)",
+      "reviews": 9,
+      "description": "Onsite services·Online estimates",
+      "place_id": "11111744706613554501",
+      "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=us&google_domain=google.com&hl=en&location=Pune&ludocid=11111744706613554501&q=Electrician+Pune",
+      "gps_coordinates": {
+        "latitude": 18.5174211,
+        "longitude": 73.8612454
+      },
+      "service_options": {
+        "onsite_services": true,
+        "online_estimates": true
+      },
+      "links": {
+        "website": "https://www.instagram.com/_chaudhari_enterprises_?igsh=MXZwZGlzN3c5ZnQ3eA==",
+        "directions": "https://www.google.com/maps/dir//Chaudhari+Enterprises+%7C+Electrical+service,+Best+Electrician+ln+Pune,+shivanjali+chauk,+63+Raviwar+peth,+near+Ramesh+gas+agency,+kachi+ali,+Pune,+Maharashtra+411002,+India/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bc2c12c23035d57:0x9a34d8f028872d45?sa=X&ved=2ahUKEwi2pdCW05aFAxW2hIkEHePoBdUQ48ADegQIChAA"
+      },
+      "title": "Chaudhari Enterprises | Electrical service, Best Electrician ln Pune",
+      "type": "Electrician",
+      "address": "Pune, Maharashtra, India",
+      "hours": "Open ⋅ Closes 11:30 PM"
+    },
+    {
+      "position": 7,
+      "rating": 4.9,
+      "reviews_original": "(201)",
+      "reviews": 201,
+      "description": "Onsite services not available",
+      "place_id": "17223644784130276337",
+      "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=us&google_domain=google.com&hl=en&location=Pune&ludocid=17223644784130276337&q=Electrician+Pune",
+      "gps_coordinates": {
+        "latitude": 18.468867499999998,
+        "longitude": 73.8884273
+      },
+      "service_options": {
+        "onsite_services_not_available": true
+      },
+      "links": {
+        "website": "http://www.sajidelectricionsalution.com/",
+        "directions": "https://www.google.com/maps/dir//shop+no+9,+Sajid+electrician,+Swagat+hardware,+opp.+Sheetal+Petrol+pump,+Kondhwa,+Pune,+Maharashtra+411048,+India/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bc2ebc7927cc01d:0xef06adad27983bf1?sa=X&ved=2ahUKEwi2pdCW05aFAxW2hIkEHePoBdUQ48ADegQIDBAA"
+      },
+      "title": "Sajid electrician",
+      "type": "Electrical installation service",
+      "address": "Pune, Maharashtra, India",
+      "years_in_business": "3+ years in business",
+      "phone": "+91 97934 48268",
+      "hours": "Open 24 hours"
+    },
+    {
+      "position": 8,
+      "rating": 5,
+      "reviews_original": "(122)",
+      "reviews": 122,
+      "description": "Onsite services·Online estimates",
+      "place_id": "4233513268362566839",
+      "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=us&google_domain=google.com&hl=en&location=Pune&ludocid=4233513268362566839&q=Electrician+Pune",
+      "gps_coordinates": {
+        "latitude": 18.4700637,
+        "longitude": 73.88427639999999
+      },
+      "service_options": {
+        "onsite_services": true,
+        "online_estimates": true
+      },
+      "links": {
+        "directions": "https://www.google.com/maps/dir//Shop+number+2,+JMS+Electrician+Services,+Sr+No+51+Sahara+Classic,+near+d.ed+college,+Mitha+Nagar,+Kondhwa,+Pune,+Maharashtra+411048,+India/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bc2eb80e8eaebfd:0x3ac075e330a75cb7?sa=X&ved=2ahUKEwi2pdCW05aFAxW2hIkEHePoBdUQ48ADegQICxAA"
+      },
+      "title": "JMS Electrician Services",
+      "type": "Electrical installation service",
+      "address": "Pune, Maharashtra, India",
+      "years_in_business": "3+ years in business",
+      "phone": "+91 98905 31709",
+      "hours": "Open 24 hours"
+    },
+    {
+      "position": 9,
+      "rating": 4.8,
+      "reviews_original": "(94)",
+      "reviews": 94,
+      "description": "\"Parmeshwar showed up when I needed some urgent help.\"",
+      "place_id": "4909159493459517378",
+      "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=us&google_domain=google.com&hl=en&location=Pune&ludocid=4909159493459517378&q=Electrician+Pune",
+      "thumbnail": "https://serpapi.com/searches/6605391df55d772ef2fa04f9/images/4a4e3f2e99afbe30a2e34321b81ad86680bc9ddd92e6a5914734f9458c5f64ee.png",
+      "gps_coordinates": {
+        "latitude": 18.4505741,
+        "longitude": 73.8975415
+      },
+      "links": {
+        "directions": "https://www.google.com/maps/dir//Parmeshwar+Deshmukh+Electrician+Sales+%26Service,+Sr+no+48%2F1b+Siddhakal+bunglow+lane+no+10,+Lane+10,+Heaven+Park,+Mohammed+Wadi,+Pune,+Maharashtra+411040,+India/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bc2eb5353bc9b13:0x4420d68ca9641fc2?sa=X&ved=2ahUKEwi2pdCW05aFAxW2hIkEHePoBdUQ48ADegQIEBAA"
+      },
+      "title": "Parmeshwar Deshmukh Electrician Sales &Service",
+      "type": "Electrical installation service",
+      "address": "Pune, Maharashtra, India",
+      "years_in_business": "7+ years in business",
+      "phone": "+91 88880 65270",
+      "hours": "Open ⋅ Closes 12 AM"
+    },
+    {
+      "position": 10,
+      "rating": 5,
+      "reviews_original": "(38)",
+      "reviews": 38,
+      "description": "\"Best service provider very helpful\"",
+      "place_id": "5078995231657392942",
+      "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=us&google_domain=google.com&hl=en&location=Pune&ludocid=5078995231657392942&q=Electrician+Pune",
+      "thumbnail": "https://serpapi.com/searches/6605391df55d772ef2fa04f9/images/4a4e3f2e99afbe30057509251b56ecf1a5743042284699afd1b7eb62965b461d.png",
+      "gps_coordinates": {
+        "latitude": 18.470782099999997,
+        "longitude": 73.8501797
+      },
+      "links": {
+        "directions": "https://www.google.com/maps/dir//Pride+Electrical+Services+%7C+Electrician+Work+House+Wiring,+Sr+no+6%2F9,+Samarth+Krupa+Asthdwar+ganesh+Society+Taljai+Pathar,+Dhankawadi,+Pune,+Maharashtra+411043,+India/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bc2ebe5bb0266ab:0x467c3740e6d77b2e?sa=X&ved=2ahUKEwi2pdCW05aFAxW2hIkEHePoBdUQ48ADegQIDhAA"
+      },
+      "title": "Pride Electrical Services | Electrician Work House Wiring",
+      "type": "Electrical installation service",
+      "address": "Pune, Maharashtra, India",
+      "phone": "+91 95112 33818",
+      "hours": "Open ⋅ Closes 9 PM"
+    },
+    {
+      "position": 11,
+      "rating": 4.8,
+      "reviews_original": "(41)",
+      "reviews": 41,
+      "description": "Onsite services·Online estimates",
+      "place_id": "9111464641583267400",
+      "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=us&google_domain=google.com&hl=en&location=Pune&ludocid=9111464641583267400&q=Electrician+Pune",
+      "gps_coordinates": {
+        "latitude": 18.5390929,
+        "longitude": 73.90446969999999
+      },
+      "service_options": {
+        "onsite_services": true,
+        "online_estimates": true
+      },
+      "links": {
+        "website": "https://a-k-electrician.business.site/?utm_source=gmb&utm_medium=referral",
+        "directions": "https://www.google.com/maps/dir//Shop+No,+A+K+Electrician,+1,+N+Main+Rd,+Koregaon+Park,+Pune,+Maharashtra+411001,+India/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bc2c104141db3b3:0x7e726cd1211a3e48?sa=X&ved=2ahUKEwi2pdCW05aFAxW2hIkEHePoBdUQ48ADegQIERAA"
+      },
+      "title": "A K Electrician",
+      "type": "Electrician",
+      "address": "Pune, Maharashtra, India",
+      "phone": "+91 91752 73233",
+      "hours": "Open ⋅ Closes 10 PM"
+    },
+    {
+      "position": 12,
+      "rating": 4.9,
+      "reviews_original": "(74)",
+      "reviews": 74,
+      "description": "Onsite services·Online estimates",
+      "place_id": "9217847092569190237",
+      "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=us&google_domain=google.com&hl=en&location=Pune&ludocid=9217847092569190237&q=Electrician+Pune",
+      "gps_coordinates": {
+        "latitude": 18.5296845,
+        "longitude": 73.8353633
+      },
+      "service_options": {
+        "onsite_services": true,
+        "online_estimates": true
+      },
+      "links": {
+        "directions": "https://www.google.com/maps/dir//Lokesh+Electricals,+Deep+banglo+chowk,+Model+Colony,+Pune,+Maharashtra+411016,+India/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bc2bfce5d6eb845:0x7fec5f17aa742f5d?sa=X&ved=2ahUKEwi2pdCW05aFAxW2hIkEHePoBdUQ48ADegQIDxAA"
+      },
+      "title": "Lokesh Electricals",
+      "type": "Electrical installation service",
+      "address": "Pune, Maharashtra, India",
+      "years_in_business": "15+ years in business",
+      "phone": "+91 99602 28599",
+      "hours": "Open ⋅ Closes 10 PM"
+    },
+    {
+      "position": 13,
+      "rating": 5,
+      "reviews_original": "(46)",
+      "reviews": 46,
+      "description": "\"Excellent finishing and clean work.\"",
+      "place_id": "3585618406119076189",
+      "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=us&google_domain=google.com&hl=en&location=Pune&ludocid=3585618406119076189&q=Electrician+Pune",
+      "thumbnail": "https://serpapi.com/searches/6605391df55d772ef2fa04f9/images/4a4e3f2e99afbe309e63868332a370085540e87ee4e0380602e27a4bad4654d9.png",
+      "gps_coordinates": {
+        "latitude": 18.5512452,
+        "longitude": 73.92094800000001
+      },
+      "links": {
+        "directions": "https://www.google.com/maps/dir//Pune+electrician+False+ceiling,pop(gypsum,pvc)+Electrical+interior+work+contractor,+Wadgaon+Sheri,+Pune,+Maharashtra+411014,+India/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bc2c16dd486722b:0x31c2acf164d4715d?sa=X&ved=2ahUKEwi2pdCW05aFAxW2hIkEHePoBdUQ48ADegQIBhAA"
+      },
+      "title": "Pune electrician False ceiling,pop(gypsum,pvc) Electrical interior work contractor",
+      "type": "Electrical installation service",
+      "address": "Pune, Maharashtra, India",
+      "years_in_business": "10+ years in business",
+      "phone": "+91 98349 98027",
+      "hours": "Open 24 hours"
+    },
+    {
+      "position": 14,
+      "rating": 4.9,
+      "reviews_original": "(26)",
+      "reviews": 26,
+      "description": "\"Behaveier, Good Work Quality at my budget .\"",
+      "place_id": "7685526131708141759",
+      "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=us&google_domain=google.com&hl=en&location=Pune&ludocid=7685526131708141759&q=Electrician+Pune",
+      "thumbnail": "https://serpapi.com/searches/6605391df55d772ef2fa04f9/images/4a4e3f2e99afbe302d8a977a2c703e0a1ef0f88d8389350235b8b77886f3ef89.png",
+      "gps_coordinates": {
+        "latitude": 18.5160229,
+        "longitude": 73.8481009
+      },
+      "links": {
+        "website": "https://mission-electrical-empire.dotcompal.co/Mission-Electrical-Empire",
+        "directions": "https://www.google.com/maps/dir//Electrical+License+in+Maharashtra,+Police+station,+NC+Kelkar+Road,+Narayan+Peth,+Pune,+Maharashtra+411030,+India/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bc2c1c863ce8ffb:0x6aa8794c107220bf?sa=X&ved=2ahUKEwi2pdCW05aFAxW2hIkEHePoBdUQ48ADegQIBxAA"
+      },
+      "title": "Electrical License in Maharashtra",
+      "type": "Electrician",
+      "address": "Pune, Maharashtra, India",
+      "years_in_business": "7+ years in business",
+      "phone": "+91 93710 83034",
+      "hours": "Open ⋅ Closes 6 PM"
+    },
+    {
+      "position": 15,
+      "rating": 4.9,
+      "reviews_original": "(230)",
+      "reviews": 230,
+      "description": "Onsite services·Online estimates",
+      "place_id": "4721338316131975417",
+      "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=us&google_domain=google.com&hl=en&location=Pune&ludocid=4721338316131975417&q=Electrician+Pune",
+      "gps_coordinates": {
+        "latitude": 18.4769261,
+        "longitude": 73.8959995
+      },
+      "service_options": {
+        "onsite_services": true,
+        "online_estimates": true
+      },
+      "links": {
+        "website": "https://mhs-electricals.business.site/",
+        "directions": "https://www.google.com/maps/dir//MHS+Electrical+,Electrician+Services,+Ashoka+Mews,+A+Wing+103,+near+Shital+Petrol+Pump,+near+by+kousar+baag,+Kondhwa,+Pune,+Maharashtra+411048,+India/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bc2eb794dd568f5:0x4185902f0d7cc0f9?sa=X&ved=2ahUKEwi2pdCW05aFAxW2hIkEHePoBdUQ48ADegQIAhAA"
+      },
+      "title": "MHS Electrical ,Electrician Services",
+      "type": "Electrical installation service",
+      "address": "Pune, Maharashtra, India",
+      "years_in_business": "10+ years in business",
+      "phone": "+91 70201 10300",
+      "hours": "Open 24 hours"
+    },
+    {
+      "position": 16,
+      "rating": 5,
+      "reviews_original": "(73)",
+      "reviews": 73,
+      "description": "\"...worth to call on this Electrician\"",
+      "place_id": "15314356707916380521",
+      "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=us&google_domain=google.com&hl=en&location=Pune&ludocid=15314356707916380521&q=Electrician+Pune",
+      "thumbnail": "https://serpapi.com/searches/6605391df55d772ef2fa04f9/images/4a4e3f2e99afbe30844d3f488ecd057d266f2f7d35e918e4da94a027c0768410.png",
+      "gps_coordinates": {
+        "latitude": 18.507871599999998,
+        "longitude": 73.80693810000001
+      },
+      "links": {
+        "directions": "https://www.google.com/maps/dir//SUNIL+ELECTRICALS,+Kothrud+depot,paud+road,+Pune,+Maharashtra+411038,+India/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bc2bfb9ee1eebaf:0xd487864972f9f969?sa=X&ved=2ahUKEwi2pdCW05aFAxW2hIkEHePoBdUQ48ADegQICBAA"
+      },
+      "title": "SUNIL ELECTRICALS",
+      "type": "Electrical installation service",
+      "address": "Pune, Maharashtra, India",
+      "years_in_business": "10+ years in business",
+      "phone": "+91 99211 02721"
+    },
+    {
+      "position": 17,
+      "rating": 4.4,
+      "reviews_original": "(43)",
+      "reviews": 43,
+      "place_id": "10461525943276298519",
+      "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=us&google_domain=google.com&hl=en&location=Pune&ludocid=10461525943276298519&q=Electrician+Pune",
+      "gps_coordinates": {
+        "latitude": 18.5182841,
+        "longitude": 73.8584628
+      },
+      "links": {
+        "website": "https://mahalaxmielectromech.com/",
+        "directions": "https://www.google.com/maps/dir//Mahalaxmi+Electromech,+555,+Budhwar+Peth+Rd,+near+Phadke+Haud,+Budhwar+Peth,+Pune,+Maharashtra+411002,+India/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bc2c06f7b210379:0x912ece6af9846117?sa=X&ved=2ahUKEwi2pdCW05aFAxW2hIkEHePoBdUQ48ADegQIBBAA"
+      },
+      "title": "Mahalaxmi Electromech",
+      "type": "Electrical installation service",
+      "address": "Pune, Maharashtra, India",
+      "years_in_business": "7+ years in business",
+      "phone": "+91 99229 60321",
+      "hours": "Open ⋅ Closes 6:30 PM"
+    },
+    {
+      "position": 18,
+      "rating": 4.9,
+      "reviews_original": "(96)",
+      "reviews": 96,
+      "description": "Onsite services·Online estimates",
+      "place_id": "8902845324828012275",
+      "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=us&google_domain=google.com&hl=en&location=Pune&ludocid=8902845324828012275&q=Electrician+Pune",
+      "gps_coordinates": {
+        "latitude": 18.6004841,
+        "longitude": 73.91569369999999
+      },
+      "service_options": {
+        "onsite_services": true,
+        "online_estimates": true
+      },
+      "links": {
+        "directions": "https://www.google.com/maps/dir//Electrician+Sagar+service+in+lohegaon+pune,+Shri+swami+samarth+nagar+kuttwal+colony+lane+no.10,+_47,+Lohegaon,+Pune,+Maharashtra+411047,+India/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bc2c71b592bdf47:0x7b8d42a7549eeef3?sa=X&ved=2ahUKEwi2pdCW05aFAxW2hIkEHePoBdUQ48ADegQIBRAA"
+      },
+      "title": "Electrician Sagar service in lohegaon pune",
+      "type": "Electrical installation service",
+      "address": "Pune, Maharashtra, India",
+      "years_in_business": "5+ years in business",
+      "phone": "+91 88876 60247",
+      "hours": "Open ⋅ Closes 7 PM"
+    },
+    {
+      "position": 19,
+      "rating": 4.8,
+      "reviews_original": "(48)",
+      "reviews": 48,
+      "description": "\"The job was completed in an hour's time and certainly will recommend them further.\"",
+      "place_id": "17130139871227847635",
+      "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=us&google_domain=google.com&hl=en&location=Pune&ludocid=17130139871227847635&q=Electrician+Pune",
+      "thumbnail": "https://serpapi.com/searches/6605391df55d772ef2fa04f9/images/4a4e3f2e99afbe309e85a278c88d677ea6b0909f63c3ffacf2ec48a4631e0601.png",
+      "gps_coordinates": {
+        "latitude": 18.5652622,
+        "longitude": 73.91261639999999
+      },
+      "links": {
+        "directions": "https://www.google.com/maps/dir//SK+ELECTRICAL,+Viman+Nagar+Rd,+Konark+Nagar,+Clover+Park,+Viman+Nagar,+Pune,+Maharashtra+411014,+India/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bc2c14761a4e959:0xedba7b74194aa3d3?sa=X&ved=2ahUKEwi2pdCW05aFAxW2hIkEHePoBdUQ48ADegQIAxAA"
+      },
+      "title": "SK ELECTRICAL",
+      "type": "Electrician",
+      "address": "Pune, Maharashtra, India",
+      "years_in_business": "7+ years in business",
+      "phone": "+91 96042 67124",
+      "hours": "Open ⋅ Closes 9 PM"
+    },
+    {
+      "position": 20,
+      "rating": 4.1,
+      "reviews_original": "(19)",
+      "reviews": 19,
+      "place_id": "5335342293109222756",
+      "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=us&google_domain=google.com&hl=en&location=Pune&ludocid=5335342293109222756&q=Electrician+Pune",
+      "gps_coordinates": {
+        "latitude": 18.5198288,
+        "longitude": 73.8517868
+      },
+      "links": {
+        "directions": "https://www.google.com/maps/dir//GV92%2BWMQ+Plan+Power+Engineers+%26+Electrical+Contractors,+Nene+Ghat+Rd,+Paygude+Wada,+Shaniwar+Peth,+Pune,+Maharashtra+411030,+India/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bc2c07a5aaaaaab:0x4a0af18c37e4ad64?sa=X&ved=2ahUKEwi2pdCW05aFAxW2hIkEHePoBdUQ48ADegQIARAA"
+      },
+      "title": "Plan Power Engineers & Electrical Contractors",
+      "type": "Electrician",
+      "address": "Pune, Maharashtra, India",
+      "years_in_business": "10+ years in business",
+      "phone": "+91 20 2448 4598",
+      "hours": "Open ⋅ Closes 7 PM"
+    }
+  ],
+  "pagination": {
+    "current": 1,
+    "next": "https://www.google.com/search?q=Electrician+Pune&hl=en&gl=us&start=20&tbm=lcl",
+    "other_pages": {
+      "2": "https://www.google.com/search?q=Electrician+Pune&hl=en&gl=us&start=20&tbm=lcl",
+      "3": "https://www.google.com/search?q=Electrician+Pune&hl=en&gl=us&start=40&tbm=lcl",
+      "4": "https://www.google.com/search?q=Electrician+Pune&hl=en&gl=us&start=60&tbm=lcl",
+      "5": "https://www.google.com/search?q=Electrician+Pune&hl=en&gl=us&start=80&tbm=lcl"
+    }
+  },
+  "serpapi_pagination": {
+    "current": 1,
+    "next_link": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=us&google_domain=google.com&hl=en&location=Pune&q=Electrician+Pune&start=20",
+    "next": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=us&google_domain=google.com&hl=en&location=Pune&q=Electrician+Pune&start=20",
+    "other_pages": {
+      "2": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=us&google_domain=google.com&hl=en&location=Pune&q=Electrician+Pune&start=20",
+      "3": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=us&google_domain=google.com&hl=en&location=Pune&q=Electrician+Pune&start=40",
+      "4": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=us&google_domain=google.com&hl=en&location=Pune&q=Electrician+Pune&start=60",
+      "5": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=us&google_domain=google.com&hl=en&location=Pune&q=Electrician+Pune&start=80"
+    }
+  }
+}

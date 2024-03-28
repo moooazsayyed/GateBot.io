@@ -14,8 +14,8 @@ const router = express.Router();
 // create category
 router.post(
   "/create-category",
-  requireSignIn,
-  isAdmin,
+  // requireSignIn,
+  // isAdmin,
   createCategoryController
 );
 

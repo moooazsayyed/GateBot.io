@@ -1,0 +1,308 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Basic styling for the navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #000000;
+    border-bottom: 2px solid #000;
+}
+
+/* Style for the left side containing "A11" */
+.navbar-left {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-left span {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+/* Style for the right side containing icons */
+.navbar-right {
+    display: flex;
+}
+
+.nav-icon {
+    font-size: 1.2rem;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+/* Additional styling for better visibility */
+.nav-icon:hover {
+    color: #ecf0f1;
+    /* Change the icon color on hover */
+}
+
+/* Styling for the search bar */
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #f2f2f2;
+    /* Light grey background */
+    border-radius: 10px;
+    /* Rounded corners */
+    margin: 10px;
+    padding: 5px 10px;
+}
+
+.search-bar input {
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 5px;
+}
+
+.search-icons {
+    display: flex;
+    margin-left: 10px;
+    font-size: 1.2rem;
+}
+
+.search-icons span {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+/* Slideshow */
+
+.slideshow {
+    margin: 0 auto;
+    overflow: hidden;
+    max-width: 300px;
+}
+
+.slideshowSlider {
+    white-space: nowrap;
+    transition: ease 1000ms;
+}
+
+.slide {
+    display: inline-block;
+    height: 300px;
+    width: 100%;
+    border-radius: 40px;
+}
+
+/* Buttons */
+
+.slideshowDots {
+    text-align: center;
+}
+
+.slideshowDot {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+
+    cursor: pointer;
+    margin: 15px 7px 0px;
+
+    background-color: #c4c4c4;
+}
+
+.slideshowDot.active {
+    background-color: #6a0dad;
+}
+
+/* Styling for the trending services section */
+.trending-services {
+    margin: 20px 0;
+    border-bottom: 4px solid #ccc;
+}
+
+.trending-services h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.services-grid {
+    display: flex;
+    gap: 15px;
+}
+
+.service-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.service-item span {
+    font-size: 2rem;
+}
+
+.service-item p {
+    margin-top: 5px;
+}
+
+/* Styling for the Urban Company services section */
+.urban-company-services {
+    margin: 20px 0;
+    border-bottom: 4px solid #ccc;
+}
+
+.urban-company-services h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.services-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.service-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 120px;
+    /* Adjust width as needed */
+}
+
+.service-item span {
+    font-size: 2rem;
+}
+
+.service-item p {
+    margin-top: 5px;
+    text-align: center;
+}
+
+/* Styling for the Car services section */
+.car-services {
+    margin: 20px 0;
+    border-bottom: 4px solid #ccc;
+}
+
+.car-services h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.services-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.service-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 120px;
+    /* Adjust width as needed */
+}
+
+.service-item span {
+    font-size: 2rem;
+}
+
+.service-item p {
+    margin-top: 5px;
+    text-align: center;
+}
+
+/* Styling for the Partner Deals section */
+.partner-deals {
+    margin: 20px 0;
+    border-bottom: 4px solid #ccc;
+}
+
+.partner-deals h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.deals-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.deal-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 120px;
+    /* Adjust width as needed */
+}
+
+.deal-item span {
+    font-size: 2rem;
+}
+
+.deal-item p {
+    margin-top: 5px;
+    text-align: center;
+}
+
+/* Styling for the Gradient Section */
+.gradient-section {
+    margin: 20px 0;
+}
+
+.gradient-section h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.gradient-boxes {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.gradient-box {
+    padding: 20px;
+    border-radius: 10px;
+    background: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.gradient-box span {
+    font-size: 2rem;
+}
+
+.gradient-box p {
+    margin-top: 10px;
+}
+
+/* Styling for the Help & Support Section */
+.help-and-support {
+    margin: 20px 0;
+}
+
+.support-box {
+    padding: 20px;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #a7e9ff 0%, #9ad9e3 100%);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.support-box h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.support-box p {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.support-box span {
+    font-size: 2.5rem;
+    margin-top: 10px;
+    display: block;
+}
