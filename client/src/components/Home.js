@@ -144,7 +144,7 @@ export default function Home() {
           </div>
           <div className="icon">
             {/* Use Link instead of button for navigation */}
-            <Link to="#"><FontAwesomeIcon icon={faPlus} style={{ color: '#000000' }} /></Link>
+            <Link to="/"><FontAwesomeIcon icon={faPlus} style={{ color: '#000000' }} /></Link>
             <span>Services</span>
           </div>
         </div>

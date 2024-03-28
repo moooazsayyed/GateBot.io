@@ -2,59 +2,62 @@ import React, { useState } from 'react';
 import { Link, useHistory } from 'react-router-dom';
 
 function Register() {
+  const [name, setName] = useState("");
   const [email, setEmail] = useState("");
-  const [password1, setPassword1] = useState("");
-  const [password2, setPassword2] = useState("");
-  const [wing, setWing] = useState("");
-  const [flatNumber, setFlatNumber] = useState("");
+  const [password, setPassword] = useState("");
+  const [phone, setPhone] = useState("");
+  const [address, setAddress] = useState("");
+  const [answer, setAnswer] = useState("");
+  const [message, setMessage] = useState("");
   const history = useHistory();
 
   async function getFormData(e) {
     e.preventDefault();
     
-    // Form data object in the specified format
     const formData = {
+      name: name,
       email: email,
-      password1: password1,
-      password2: password2,
-      wing: wing,
-      flatNumber: flatNumber,
+      password: password,
+      phone: phone,
+      address: address,
+      answer: answer,
     };
 
     try {
-      const response = await fetch('http://localhost:5000/api/auth/register', {
+      const response = await fetch('http://localhost:8005/api/gatebot/auth/register', {
         method: 'POST',
         headers: {
-          "Content-Type": "application/json", // Corrected content type
+          "Content-Type": "application/json",
         },
-        body: JSON.stringify(formData), // Fixed typo FormData to formData
+        body: JSON.stringify(formData),
       });
 
       if (!response.ok) {
         throw new Error('Failed to register user');
       }
 
-      // Redirect the user after successful registration
-      history.push('/');
+      setMessage("User registered successfully!");
+      setTimeout(() => {
+        setMessage("");
+        history.push('/');
+      }, 3000);
     } catch (error) {
       console.error("Error registering user:", error);
+      setMessage("Failed to register user. Please try again.");
     }
   }
 
   return (
     <div className="register-page">
       <div className="form">
+        {message && <div className="message">{message}</div>}
         <form className="register-form" onSubmit={getFormData}>
+          <input type="text" placeholder="Name" onChange={(e) => setName(e.target.value)} />
           <input type="text" placeholder="Email" onChange={(e) => setEmail(e.target.value)} />
-          <input type="password" placeholder="Password" onChange={(e) => setPassword1(e.target.value)} />
-          <input type="password" placeholder="Confirm Password" onChange={(e) => setPassword2(e.target.value)} />
-          <select onChange={(e) => setWing(e.target.value)}>
-            <option value="">Select Wing</option>
-            <option value="A">Wing A</option>
-            <option value="B">Wing B</option>
-            {/* Add more wings if needed */}
-          </select>
-          <input type="text" placeholder="Flat Number" onChange={(e) => setFlatNumber(e.target.value)} />
+          <input type="password" placeholder="Password" onChange={(e) => setPassword(e.target.value)} />
+          <input type="text" placeholder="Phone" onChange={(e) => setPhone(e.target.value)} />
+          <input type="text" placeholder="Address" onChange={(e) => setAddress(e.target.value)} />
+          <input type="text" placeholder="Answer" onChange={(e) => setAnswer(e.target.value)} />
           <button type="submit">Register</button>
           <p className="message">Already registered?{' '}
             <Link to="/login">Login</Link>

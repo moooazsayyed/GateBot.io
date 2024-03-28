@@ -1,0 +1,278 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    height: 100%;
+  }
+
+  .navbar, .footer {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 0;
+    z-index: 1000;
+    height: 8%;
+  }
+
+  .navbar .container, .footer .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .main {
+    position: fixed;
+    top: 5%;
+    left: 0;
+    width: 100%;
+    height: 80%;
+    background-color: rgb(244, 244, 244);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    overflow: auto;
+    padding-top: 50px; /* Adjust the padding top to accommodate the QR code */
+  }
+
+  
+
+  .footer {
+    bottom: 0;
+    background-color: rgb(255, 255, 255);
+    height: 10%;
+  }
+
+  .icon {
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center; /* Align text in the center */
+color: #000000;
+
+}
+
+.icon i {
+  color: #000000;
+  margin-bottom: 5px;
+}
+
+  .icon:hover {
+    color: #ccc;
+  }
+
+  .account{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-radius: 50%;
+  overflow: hidden;
+  }
+
+  .Wingdetails{
+  overflow: hidden;
+  width: 40%;
+  display: flex;
+  }
+
+  .membership{
+      background-color: rgb(0, 0, 0);
+      color: #ffffff;
+      width: 50px;
+      height: 30px;
+      text-align: center;
+      border-radius: 5px;
+      margin-top: 10px;
+  }
+
+  .membership p{
+      text-align: center;
+      margin: 7px;
+  }
+
+  .flat{
+      color: #000000;
+      width: 40%;
+      text-align: center;
+      border-radius: 5px;
+      display: flex;
+      flex-direction: column;
+      margin-left: 10px;
+      font-weight: 600;
+  }
+
+  .account img{
+      height: 30px;
+  }
+
+  .adcontainer {
+    width: 100%;
+    display: flex;
+  }
+
+  /* Style for the small divs */
+  .ad {
+    width: 190px;
+    height: 100px;
+    margin: 3px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+
+  .ad img{
+      width: 100%;
+  }
+
+
+
+  /* approvel shortcur*/
+
+  .approvelcontainer {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    border-radius: 10px;
+    margin: 10px;
+    margin-top: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  }
+
+  .approvelshortcut{
+      width: 70%;
+  }
+
+  .viewall{
+      width: 30%;
+  }
+
+  .viewall img{
+      height: 70%;
+      margin-top: 20px;
+      mix-blend-mode:multiply;
+
+  }
+  /*quick links*/
+
+  .quicklinks{
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    height: 120px;
+  }
+
+  .quicklinks .iconbox {
+      height: 100%;
+      width: 20%;
+      padding-left: 20px;
+      margin: 0;
+  }
+  
+  .serviceicon{
+      height: 70%;
+      background: #FFFFFF;
+      background: linear-gradient(180deg, #FFFFFF, #ffe2e2);        border-radius: 15px;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      border:rgb(234, 194, 194) 0.5px solid;
+      overflow: hidden;
+
+  }
+  
+  .serviceicon a i{
+      font-size: 35px;
+      color: rgb(44, 29, 29);
+  }
+
+  .serviceicon a img{
+      width: 100%;
+  }
+
+  .iconbox p{
+      font-size: 14px;
+  }    
+
+
+  .msgcontainer {
+  width: 100%;
+  height: 8cm;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.msgtop-bar {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.msgprofile {
+  display: flex;
+  align-items: center;
+}
+
+.msgprofile img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.flat6no {
+  font-size: 14px;
+}
+
+.main-content {
+  flex-grow: 1;
+  background-color: #e0abab;
+  justify-content: center;
+  display: flex;
+  align-items: center    
+}
+
+.main-content h5{
+  font-size: 25px;
+  padding-left: 10px;
+}
+
+.plus-icon {
+  position: absolute;
+  bottom: 15%;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  background-color: #ed0028;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  position: fixed;
+}
+
+.plus-icon i {
+  color: #fff;
+  font-size: 24px;
+}

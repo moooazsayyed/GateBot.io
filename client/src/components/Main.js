@@ -3,20 +3,19 @@ import { Link, useHistory } from 'react-router-dom';
 
 function Main() {
   const [email, setEmail] = useState("");
-  const [password1, setpassword1] = useState("");
+  const [password, setPassword] = useState("");
   const history = useHistory();
 
   async function handleLogin(e) {
     e.preventDefault();
     
-    // Form data object in the specified format
     const formData = {
       email: email,
-      password1: password1,
+      password: password,
     };
 
     try {
-      const response = await fetch('http://localhost:5000/api/auth/login', {
+      const response = await fetch('http://localhost:8005/api/gatebot/auth/login', {
         method: 'POST',
         headers: {
           "Content-Type": "application/json",
@@ -28,7 +27,6 @@ function Main() {
         throw new Error('Failed to login');
       }
 
-      // Redirect the user after successful login
       history.push('/home');
     } catch (error) {
       console.error("Error logging in:", error);
@@ -40,7 +38,7 @@ function Main() {
       <div className="form">
         <form className="login-form" onSubmit={handleLogin}>
           <input type="text" placeholder="Email" onChange={(e) => setEmail(e.target.value)} />
-          <input type="password1" placeholder="password1" onChange={(e) => setpassword1(e.target.value)} />
+          <input type="password" placeholder="Password" onChange={(e) => setPassword(e.target.value)} />
           <button type="submit">Login</button>
           <p className="message">
             Not registered? <Link to="/register">Create an account</Link>

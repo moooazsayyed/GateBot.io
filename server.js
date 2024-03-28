@@ -1,3 +1,4 @@
+import cors from 'cors';
 import express from "express";
 import colors from "colors";
 import dotenv from "dotenv";
@@ -5,33 +6,36 @@ import morgan from "morgan";
 import { connectDB } from "./config/db.js";
 import authRoutes from "./routes/authRoutes.js";
 
-//configure env
+// Configure environment variables
 dotenv.config();
 
-//databse config
+// Connect to the database
 connectDB();
 
-//rest object
+// Create the Express app
 const app = express();
+const corsOptions = {
+  origin: ['http://localhost:3000'],
+  optionsSuccessStatus: 200
+};
 
-//middelwares
+app.use(cors(corsOptions));  
+// Middlewares
 app.use(express.json());
 app.use(morgan("dev"));
 
-//routes
+// Routes
 app.use("/api/gatebot/auth", authRoutes);
 
-//rest api
+// Root route
 app.get("/", (req, res) => {
    res.send("<h1>Welcome to ecommerce app</h1>");
 });
 
-//PORT
+// Define the port
 const PORT = process.env.PORT || 8005;
 
-//run listen
+// Start the server
 app.listen(PORT, () => {
-  console.log(
-    `Server Running on ${process.env.DEV_MODE} mode on port ${PORT}`.bgGreen.white
-  );
+  console.log(`Server Running on ${process.env.DEV_MODE} mode on port ${PORT}`.bgGreen.white);
 });
