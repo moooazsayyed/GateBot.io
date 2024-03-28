@@ -1,0 +1,185 @@
+/* Post property */
+.container {
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #fff5f6;
+}
+
+.question {
+    font-size: 18px;
+    color: #4b1e29;
+}
+
+.post-button {
+    padding: 10px 20px;
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.post-button:active {
+    background-color: #e60000;
+    transform: scale(0.95);
+}
+
+/* Rent Buy Share */
+.search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fcdddb;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    height: 130px;
+    width: 300px;
+}
+
+.search-options {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.option-input {
+    display: none;
+}
+
+.option-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 5px 10px;
+}
+
+.option-input:checked+.option-button {
+    border-bottom: 2px solid #000;
+}
+
+.option-button:hover {
+    background-color: #e6e6e6;
+    color: #333;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.search-location {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#location-select {
+    margin-left: 5px;
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Services */
+/* CSS */
+.property-services {
+    text-align: center;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.service-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+}
+
+.service-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.service-item:active {
+    transform: translateY(1px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.service-item span[role="img"] {
+    font-size: 32px;
+    /* Adjust the emoji size */
+    display: block;
+}
+
+.service-item span:last-child {
+    margin-top: 5px;
+}
+
+/* Testimonials */
+.testimonial-container {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    /* Adjust as needed */
+    margin: auto;
+    overflow: hidden;
+}
+
+.testimonial {
+    display: none;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 10px auto;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+}
+
+.testimonial.active {
+    display: block;
+}
+
+.author {
+    text-align: right;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+.controls {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.control-left,
+.control-right {
+    cursor: pointer;
+    user-select: none;
+    font-size: 24px;
+    /* Adjust size as needed */
+}
+
+.control-left {
+    transform: translate(0, -50%);
+    left: 0;
+}
+
+.control-right {
+    transform: translate(0, -50%);
+    right: 0;
+}
