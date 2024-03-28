@@ -9,6 +9,7 @@ import {
   Switch,
   Route,
 } from "react-router-dom";
+import Electrician from './components/electrician';
 
 // Import the components you want to include
 function App() {
@@ -18,15 +19,21 @@ function App() {
         <Route path='/home'>
           <Home />
         </Route>
+        <Route path='/services/electrical'>
+          <Electrician />
+        </Route>
+        <Route path='/services'>
+          <AllServicesPage />
+        </Route>
+       
+        
         <Route path='/register'>
           <Register />
         </Route>
         <Route path='/'>
           <Main />
         </Route>
-        <Route path='/services'>
-          <AllServicesPage />
-        </Route>
+        
       </Switch>
     </Router>
   );

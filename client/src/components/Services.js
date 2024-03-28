@@ -122,7 +122,9 @@ const TrendingServices = () => {
 const UrbanCompanyServices = () => {
     const urbanCompanyServices = [
         { name: "Plumbing", icon: "🚿" },
-        { name: "Electrical", icon: "⚡" },
+    <a href="/services/electrical">
+    <span role="img" aria-label="Electrical">⚡</span> Electrician
+    </a>,
         { name: "Carpentry", icon: "🔨" },
         { name: "Appliance Repair", icon: "🛠️" },
         { name: "Home Cleaning", icon: "🏡" },

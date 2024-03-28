@@ -27,7 +27,7 @@ app.use(morgan("dev"));
 // Routes
 app.use("/api/gatebot/auth", authRoutes);
 app.use("/api/gatebot/category", categoryRoutes);
-app.use("/api/gatebot/services",servicesRoutes)
+// app.use("/api/gatebot/services",servicesRoutes)
 // Root route
 app.get("/", (req, res) => {
    res.send("<h1>Welcome to ecommerce app</h1>");
