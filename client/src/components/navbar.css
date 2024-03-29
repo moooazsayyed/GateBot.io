@@ -1,5 +1,19 @@
-/* .navbar {
+.navbar {
     display: flex;
     justify-content: space-between;
-    padding:
-} */
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    /* Add padding for better spacing */
+}
+
+.icons a {
+    font-size: 24px;
+    /* Make icons bigger */
+    margin-right: 15px;
+    /* Add spacing between icons */
+}
+
+/* Add a hover effect for the icons for better interactivity */
+.icons a:hover {
+    opacity: 0.7;
+}
