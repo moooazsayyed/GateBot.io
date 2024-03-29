@@ -4,73 +4,55 @@ import {   hashPassword } from "./../helpers/authHelper.js";
 import JWT from "jsonwebtoken";
 
 
-//register user
+
+
+// Register controller
 export const registerController = async (req, res) => {
   try {
-    const { name, email, password, phone, address, answer } = req.body;
-    //validations
-    if (!name) {
-      return res.send({ error: "Name is Required" });
+    const { name, email, password, phone, address, answer, role, wing, flatNo, securityQuestion, secretKey } = req.body;
+    // Validations
+    if (!name || !email || !password || !phone || !address || !answer || !securityQuestion) {
+      return res.status(400).send({ message: "All fields are required" });
     }
-    if (!email) {
-      return res.send({ message: "Email is Required" });
+
+    // Check if the user already exists
+    const existingUser = await userModel.findOne({ email });
+    if (existingUser) {
+      return res.status(400).send({ message: "Email already exists, please use a different email" });
     }
-    if (!password) {
-      return res.send({ message: "Password is Required" });
-    }
-    if (!phone) {
-      return res.send({ message: "Phone no is Required" });
-    }
-    if (!address) {
-      return res.send({ message: "Address is Required" });
-    }
-    if (!answer) {
-      return res.send({ message: "Answer is Required" });
-    }
-    //check user
-    const exisitingUser = await userModel.findOne({ email });
-    //exisiting user
-    if (exisitingUser) {
-      return res.status(200).send({
-        success: false,
-        message: "Already Register please login",
-      });
-    }
-    //register user
-    const hashedPassword = await hashPassword(password);
-    //save
-    const user = await new userModel({
+
+    // Hash and salt the password
+    const hashedPassword = await bcrypt.hash(password, 10); // 10 is the salt rounds
+
+    // Create a new user object
+    const newUser = new userModel({
       name,
       email,
+      password: hashedPassword, // Store the hashed password
       phone,
       address,
-      password: hashedPassword,
       answer,
-    }).save();
+      role: role === 1 ? 1 : 0, // Set role to 1 for admin, 0 for user
+      wing: role === 0 ? wing : null, // Include wing and flatNo only for users
+      flatNo: role === 0 ? flatNo : null,
+      secretKey: role === 1 ? secretKey : null, // Include secretKey only for admins
+      securityQuestion,
+    });
 
-    res.status(201).send({
-      success: true,
-      message: "User Register Successfully",
-      user,
-    });
+    // Save the new user to the database
+    await newUser.save();
+
+    res.status(201).send({ message: "Registered successfully" });
   } catch (error) {
-    if (error.code === 11000) {
-      // Duplicate key error (email already exists)
-      return res.status(400).send({
-        success: false,
-        message: "Email already exists, please use a different email",
-      });
-    }
-    console.log(error);
-    res.status(500).send({
-      success: false,
-      message: "Error in Registration",
-      error,
-    });
+    console.error("Error registering user:", error);
+    res.status(500).send({ message: "Error in Registration" });
   }
 };
-  //POST LOGIN
+
+
+
 //POST LOGIN
+// POST LOGIN
 export const loginController = async (req, res) => {
   const { email, password } = req.body;
 
@@ -85,13 +67,13 @@ export const loginController = async (req, res) => {
         expiresIn: "7d",
       });
 
-      
+      const isAdmin = user.role === 1; // Check if the user is an admin
 
       console.log("Token created successfully:", token);
       console.log("User details:", user);
 
-      // Return the token and user details
-      return res.status(201).json({ status: "ok", data: { token, user } });
+      // Return the token, isAdmin status, and user details
+      return res.status(201).json({ status: "ok", data: { token, isAdmin, user } });
     } else {
       return res.status(401).json({ error: "Invalid password" });
     }
@@ -100,7 +82,6 @@ export const loginController = async (req, res) => {
     return res.status(500).json({ error: "Internal Server Error" });
   }
 };
-
 export const getUserDataController = async (req, res) => {
   const token = req.headers.authorization.split(' ')[1]; // Extract the token from the Authorization header
   try {
