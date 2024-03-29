@@ -1,39 +1,12 @@
 import React from 'react';
-import { Link } from 'react-router-dom'; // Import Link from react-router-dom
+import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlus, faBoxArchive, faBuilding, faHouseChimney, faCar } from '@fortawesome/free-solid-svg-icons';
-import './style.css'; // Import the CSS file
+import './home.css';
 
 export default function Home() {
   return (
     <div>
-      <div className="navbar">
-        <div className="container">
-          <div className="Wingdetails">
-            <div className="membership">
-              <p>Free</p>
-            </div>
-            <div className="flat">
-              <p>A -101</p>
-            </div>
-          </div>
-          <div className="icon">
-            {/* Use Link instead of button for navigation */}
-            <Link to="#"><FontAwesomeIcon icon={faPlus} style={{ color: '#000000' }} /></Link>
-          </div>
-          <div className="icon">
-            {/* Use Link instead of button for navigation */}
-            <Link to="#"><FontAwesomeIcon icon={faBoxArchive} style={{ color: '#000000' }} /></Link>
-          </div>
-          <div className="icon">
-            {/* Use Link instead of button for navigation */}
-            <Link to="#"><FontAwesomeIcon icon={faBuilding} style={{ color: '#000000' }} /></Link>
-          </div>
-          <div className="account">
-            <img src="https://preview.redd.it/htd1cssoujc51.png?auto=webp&s=ea7a4436e56a4e9e5da43549b7bb90aefd842195" alt="" />
-          </div>
-        </div>
-      </div>
 
       <div className="main">
             <div className="adcontainer">
