@@ -21,8 +21,11 @@
     "google-search-results-nodejs": "^2.1.0",
     "http": "^0.0.1-security",
     "jsonwebtoken": "^9.0.2",
+    "libphonenumber-js": "^1.10.59",
     "mongoose": "^8.2.3",
     "morgan": "^1.10.0",
+    "node-localstorage": "^3.0.5",
+    "react-native-modal": "^13.0.1",
     "slugify": "^1.6.6",
     "socket.io": "^4.7.5",
     "socket.io-client": "^4.7.5"

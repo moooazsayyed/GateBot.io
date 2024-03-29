@@ -13,7 +13,11 @@ import {
   Switch,
   Route,
 } from "react-router-dom";
-import Electrician from './components/electrician';
+import Electrician from './components/services/electrician';
+import Acrepair from './components/services/acrepair';
+import Carpenter from './components/services/carpenter';
+import UserData from './components/details';
+import AdminPage from './components/admin'; // Import the AdminPage component
 
 // Import the components you want to include
 function App() {
