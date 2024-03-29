@@ -1,5 +1,4 @@
 import mongoose from "mongoose";
-
 const userSchema = new mongoose.Schema(
   {
     name: {
@@ -30,10 +29,18 @@ const userSchema = new mongoose.Schema(
     },
     role: {
       type: Number,
-      default: 0,
+      default: 0, // Default role is 0 (user)
+    },
+    wing: {
+      type: String,
+      default: null,
+    },
+    secretKey: {
+      type: String,
+      default: null,
     },
   },
   { timestamps: true }
 );
 
-export default mongoose.model("users", userSchema);
+export default mongoose.model("User", userSchema);

@@ -121,40 +121,41 @@ const TrendingServices = () => {
 // Urban Company Services
 const UrbanCompanyServices = () => {
     const urbanCompanyServices = [
-        { name: "Plumbing", icon: "🚿" },
-    <a href="/services/electrical">
-    <span role="img" aria-label="Electrical">⚡</span> Electrician
-    </a>,
-        { name: "Carpentry", icon: "🔨" },
-        { name: "Appliance Repair", icon: "🛠️" },
-        { name: "Home Cleaning", icon: "🏡" },
-        { name: "Pest Control", icon: "🐜" },
-        { name: "Salon at Home", icon: "💇‍♀️" },
-        { name: "Massage for Men", icon: "👐" },
-        { name: "Massage for Women", icon: "💆‍♀️" },
-        { name: "Fitness Trainer at Home", icon: "🏋️‍♂️" },
-        { name: "Yoga Instructor at Home", icon: "🧘‍♂️" },
-        { name: "Painting", icon: "🎨" },
-        { name: "AC Service and Repair", icon: "❄️" },
-        { name: "Refrigerator Repair", icon: "🍎" },
-        { name: "Microwave Repair", icon: "🍲" }
+      { name: "Plumbing", icon: "🚿", link: "/services/plumbing" },
+      { name: "Electrician", icon: "⚡️", link: "/services/electrical" },
+      { name: "Carpentry", icon: "🔨", link: "/services/carpentry" },
+      { name: "Appliance Repair", icon: "🛠️", link: "/services/appliancerepair" },
+      { name: "Home Cleaning", icon: "🧹", link: "/services/home-cleaning" },
+      { name: "Pest Control", icon: "🐜", link: "/services/pest-control" },
+      { name: "Salon at Home", icon: "💇‍♀️", link: "/services/salon-at-home" },
+      { name: "Massage for Men", icon: "👐", link: "/services/massage-men" },
+      { name: "Massage for Women", icon: "💆‍♀️", link: "/services/massage-women" },
+      { name: "Fitness Trainer at Home", icon: "🏋️‍♂️", link: "/services/fitness-trainer" },
+      { name: "Yoga Instructor at Home", icon: "🧘‍♂️", link: "/services/yogainstructor" },
+      { name: "Painting", icon: "🎨", link: "/services/painting" },
+      { name: "AC Service and Repair", icon: "❄️", link: "/services/Acrepair" },
+      { name: "Refrigerator Repair", icon: "🥶", link: "/services/refrigeratorrepair" },
+      { name: "Microwave Repair", icon: "🍲", link: "/services/microwaverepair" }
     ];
-
+  
     return (
-        <div className="urban-company-services">
-            <h3>Services by Urban Company</h3>
-            <div className="services-list">
-                {urbanCompanyServices.map((service, index) => (
-                    <div className="service-item" key={index}>
-                        <span role="img" aria-label="icon">{service.icon}</span>
-                        <p>{service.name}</p>
-                    </div>
-                ))}
-            </div>
+      <div className="urban-company-services">
+        <h3>Services near you</h3>
+        <div className="services-list">
+          {urbanCompanyServices.map((service, index) => (
+            <a href={service.link} className="service-item" key={index}>
+              <span role="img" aria-label={service.name}>{service.icon}</span>
+              <p>{service.name}</p>
+            </a>
+          ))}
         </div>
+      </div>
     );
-}
+  };
+  
+  export default UrbanCompanyServices;
 
+ 
 // Car Services
 const CarServices = () => {
     const carServices = [

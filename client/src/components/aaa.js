@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-fs.readFile('1search_results.json', 'utf8', (err, data) => {
+fs.readFile('./outputjson/carpenter.json', 'utf8', (err, data) => {
   if (err) {
     console.error('Error reading file:', err);
     return;
@@ -24,7 +24,7 @@ fs.readFile('1search_results.json', 'utf8', (err, data) => {
 
   const jsonOutput = JSON.stringify(relevantData, null, 2);
 
-  fs.writeFile('output.json', jsonOutput, (err) => {
+  fs.writeFile('./apiresults/outputcarpenter.json', jsonOutput, (err) => {
     if (err) {
       console.error('Error writing file:', err);
       return;

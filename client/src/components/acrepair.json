@@ -1,0 +1,531 @@
+{
+  "search_metadata": {
+    "id": "6605aef98b7ed23494e36345",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/38e00c7003d31d04/6605aef98b7ed23494e36345.json",
+    "created_at": "2024-03-28 17:55:05 UTC",
+    "processed_at": "2024-03-28 17:55:05 UTC",
+    "google_local_url": "https://www.google.com/search?q=Acrepair+Pune&uule=w+CAIQICIWUHVuZSxNYWhhcmFzaHRyYSxJbmRpYQ&hl=en&gl=us&tbm=lcl",
+    "raw_html_file": "https://serpapi.com/searches/38e00c7003d31d04/6605aef98b7ed23494e36345.html",
+    "total_time_taken": 1.46
+  },
+  "search_parameters": {
+    "engine": "google_local",
+    "q": "Acrepair Pune",
+    "location_requested": "Pune",
+    "location_used": "Pune,Maharashtra,India",
+    "google_domain": "google.com",
+    "hl": "en",
+    "gl": "us",
+    "device": "desktop"
+  },
+  "local_results": [
+    {
+      "position": 1,
+      "rating": 4.9,
+      "reviews_original": "(262)",
+      "reviews": 262,
+      "description": "\"... recommend AC service 299 to anyone in need of AC repair.\"",
+      "place_id": "6833091229003188706",
+      "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=us&google_domain=google.com&hl=en&location=Pune&ludocid=6833091229003188706&q=Acrepair+Pune",
+      "thumbnail": "https://serpapi.com/searches/6605aef98b7ed23494e36345/images/9722d5d78e02eaa1c3b9b2942c3f860c02f1db0eb001fea67b644fa36819feab.png",
+      "gps_coordinates": {
+        "latitude": 18.5149364,
+        "longitude": 73.8648985
+      },
+      "links": {
+        "website": "https://www.acservice299.com/",
+        "directions": "https://www.google.com/maps/dir//shop+no.1,+Ac+Service+299+-+AC+Services+%26+Repair+in+Pune,+Dhokhe+talim+chowk,+near+Krishna+Bag,+New+Nana+Peth,+Pune,+Maharashtra+411002,+India/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bc2c1e17f6918a3:0x5ed40444fe9289e2?sa=X&ved=2ahUKEwispsrJw5eFAxUgv4kEHR2-B8gQ48ADegQIFRAA&hl=en&gl=us"
+      },
+      "title": "Ac Service 299 - AC Services & Repair in Pune",
+      "type": "Air conditioning repair service",
+      "address": "Pune, Maharashtra, India",
+      "phone": "+91 86055 04480",
+      "hours": "Open 24 hours"
+    },
+    {
+      "position": 2,
+      "rating": 4.8,
+      "reviews_original": "(141)",
+      "reviews": 141,
+      "description": "\"Came on time and on emergecy basis.\"",
+      "place_id": "6504001805996357203",
+      "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=us&google_domain=google.com&hl=en&location=Pune&ludocid=6504001805996357203&q=Acrepair+Pune",
+      "thumbnail": "https://serpapi.com/searches/6605aef98b7ed23494e36345/images/9722d5d78e02eaa1284872a5b8ca9fd0b15331da1922ef65aa88861c52616460.png",
+      "gps_coordinates": {
+        "latitude": 18.5663625,
+        "longitude": 73.8834954
+      },
+      "links": {
+        "website": "http://www.omsaiacservice.weebly.com/",
+        "directions": "https://www.google.com/maps/dir//Sr.No+27,+Om+sai+ac+repairs+and+services,+Jail+Rd,+near+Aadarsh+Vyam+Shala,+Adarsh+Colony,+Yerawada,+Pune,+Maharashtra+411006,+India/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bc2c1ed63280d4b:0x5a42db2ed0e97653?sa=X&ved=2ahUKEwispsrJw5eFAxUgv4kEHR2-B8gQ48ADegQIFBAA&hl=en&gl=us"
+      },
+      "title": "Om sai ac repairs and services",
+      "type": "Air conditioning repair service",
+      "address": "Pune, Maharashtra, India",
+      "years_in_business": "3+ years in business",
+      "phone": "+91 96045 99683",
+      "hours": "Open 24 hours"
+    },
+    {
+      "position": 3,
+      "rating": 4.9,
+      "reviews_original": "(345)",
+      "reviews": 345,
+      "description": "Onsite services not available",
+      "place_id": "12325832888764024800",
+      "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=us&google_domain=google.com&hl=en&location=Pune&ludocid=12325832888764024800&q=Acrepair+Pune",
+      "gps_coordinates": {
+        "latitude": 18.4630646,
+        "longitude": 73.85879489999999
+      },
+      "service_options": {
+        "onsite_services_not_available": true
+      },
+      "links": {
+        "website": "https://www.aircopservices.com/",
+        "directions": "https://www.google.com/maps/dir//Aircop+Engg.+Service+-+AC+Repair+%26+AC+Installation+Service,+Pune,+SNO+21+SAKHARE+BUILDING+BALAJI+NAGAR+DHANKWADI+NEAR+SIDDHI+HOSPITAL+BALAJI+NAGAR,+Dhankawadi,+Pune,+Maharashtra+411043,+India/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bc2eabf0be217cb:0xab0e27b50f9b47e0?sa=X&ved=2ahUKEwispsrJw5eFAxUgv4kEHR2-B8gQ48ADegQIExAA&hl=en&gl=us"
+      },
+      "title": "Aircop Engg. Service - AC Repair & AC Installation Service, Pune",
+      "type": "Air conditioning repair service",
+      "address": "Pune, Maharashtra, India",
+      "years_in_business": "7+ years in business",
+      "phone": "+91 90965 55943",
+      "hours": "Open 24 hours"
+    },
+    {
+      "position": 4,
+      "rating": 4.7,
+      "reviews_original": "(147)",
+      "reviews": 147,
+      "description": "Onsite services",
+      "place_id": "8269967365873588185",
+      "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=us&google_domain=google.com&hl=en&location=Pune&ludocid=8269967365873588185&q=Acrepair+Pune",
+      "gps_coordinates": {
+        "latitude": 18.57528,
+        "longitude": 73.81700699999999
+      },
+      "service_options": {
+        "onsite_services": true
+      },
+      "links": {
+        "website": "https://www.samruddhirefrigeration.com/",
+        "directions": "https://www.google.com/maps/dir//Samruddhi+Refrigerator-+Ac,+washing+machine,+fridge+repair+servicing,+House+No+13%2F1+Shitole+Nagar+Ganpati+chowk,+near+litle+flower+school,+Old+Sangvi,+Pune,+Maharashtra+411027,+India/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bc2b976d75ab8b5:0x72c4d380caf7d7d9?sa=X&ved=2ahUKEwispsrJw5eFAxUgv4kEHR2-B8gQ48ADegQIEhAA&hl=en&gl=us"
+      },
+      "title": "Samruddhi Refrigerator- Ac, washing machine, fridge repair servicing",
+      "type": "Air conditioning repair service",
+      "address": "Pune, Maharashtra, India",
+      "years_in_business": "3+ years in business",
+      "phone": "+91 83293 96730",
+      "hours": "Closed ⋅ Opens 9 AM Fri"
+    },
+    {
+      "position": 5,
+      "rating": 4.9,
+      "reviews_original": "(273)",
+      "reviews": 273,
+      "description": "Onsite services·Online estimates",
+      "place_id": "13510356252273986017",
+      "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=us&google_domain=google.com&hl=en&location=Pune&ludocid=13510356252273986017&q=Acrepair+Pune",
+      "gps_coordinates": {
+        "latitude": 18.471566799999998,
+        "longitude": 73.8844687
+      },
+      "service_options": {
+        "onsite_services": true,
+        "online_estimates": true
+      },
+      "links": {
+        "website": "http://galaxyacservices.website3.me/",
+        "directions": "https://www.google.com/maps/dir//Galaxy+AC+Services,+Shop+No+03,+A+S+K+Palace,+S+No+55,+H+No+9%2F13,+near+Janata+Bakery,+opposite+Bhat+Clinic,+Kondhwa,+Pune,+Maharashtra+411048,+India/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bc2eb8609e149db:0xbb7e6d6e35c4c9e1?sa=X&ved=2ahUKEwispsrJw5eFAxUgv4kEHR2-B8gQ48ADegQIDxAA&hl=en&gl=us"
+      },
+      "title": "Galaxy AC Services",
+      "type": "Air conditioning repair service",
+      "address": "Pune, Maharashtra, India",
+      "years_in_business": "7+ years in business",
+      "phone": "+91 91751 09434",
+      "hours": "Open 24 hours"
+    },
+    {
+      "position": 6,
+      "rating": 4.1,
+      "reviews_original": "(99)",
+      "reviews": 99,
+      "description": "\"Asif and Iqbal gave good suggestions and did A good job.\"",
+      "place_id": "16156754094092231479",
+      "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=us&google_domain=google.com&hl=en&location=Pune&ludocid=16156754094092231479&q=Acrepair+Pune",
+      "thumbnail": "https://serpapi.com/searches/6605aef98b7ed23494e36345/images/9722d5d78e02eaa147589fe124e380e56a11eb2ef23f80c6711af03900a0389b.png",
+      "gps_coordinates": {
+        "latitude": 18.46924,
+        "longitude": 73.873256
+      },
+      "links": {
+        "website": "http://www.aoneairconditioning.co.in/",
+        "directions": "https://www.google.com/maps/dir//Sr.no+.650,+A+One+AC+Installation+%2F+AC+Repair+Services+%2F+AC+AMC+Vendor%2F+AC+Gas+Filling+Airconditioning+Services,+2%2F2,+behind+aai+mataji+mandir,+Jagade+Nagar,+Bibwewadi,+Pune,+Maharashtra+411037,+India/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bc2ea916cec40f9:0xe038523f15b4a337?sa=X&ved=2ahUKEwispsrJw5eFAxUgv4kEHR2-B8gQ48ADegQIEBAA&hl=en&gl=us"
+      },
+      "title": "A One AC Installation / AC Repair Services / AC AMC Vendor/ AC Gas Filling Airconditioning Services",
+      "type": "Air conditioning repair service",
+      "address": "Pune, Maharashtra, India",
+      "years_in_business": "5+ years in business",
+      "phone": "+91 98902 47460",
+      "hours": "Closed ⋅ Opens 9 AM Fri"
+    },
+    {
+      "position": 7,
+      "rating": 4.9,
+      "reviews_original": "(787)",
+      "reviews": 787,
+      "description": "Provides: Ac PCB repair in pune",
+      "place_id": "12971928119952576651",
+      "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=us&google_domain=google.com&hl=en&location=Pune&ludocid=12971928119952576651&q=Acrepair+Pune",
+      "thumbnail": "https://serpapi.com/searches/6605aef98b7ed23494e36345/images/9722d5d78e02eaa152671e0d4ca69ec6d2ee511a473de08f04281377ca22d82c.png",
+      "gps_coordinates": {
+        "latitude": 18.5969204,
+        "longitude": 73.93437759999999
+      },
+      "links": {
+        "website": "https://www.vacservices.in/",
+        "directions": "https://www.google.com/maps/dir//Verma+Air+Conditioner+Services,+Ganesh+Kate+niwas+ground+floor+indriyani+vihar,+near+petrol+pump,+Sant+Nagar,+Lohegaon,+Pune,+Maharashtra+411047,+India/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bc2c6b0c939a7ff:0xb4058be599ac908b?sa=X&ved=2ahUKEwispsrJw5eFAxUgv4kEHR2-B8gQ48ADegQIERAA&hl=en&gl=us"
+      },
+      "title": "Verma Air Conditioner Services",
+      "type": "Air conditioning contractor",
+      "address": "Pune, Maharashtra, India",
+      "years_in_business": "5+ years in business",
+      "phone": "+91 84120 87447",
+      "hours": "Open 24 hours"
+    },
+    {
+      "position": 8,
+      "rating": 4.7,
+      "reviews_original": "(39)",
+      "reviews": 39,
+      "description": "Provides: A/C system repair",
+      "place_id": "9089563060140718064",
+      "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=us&google_domain=google.com&hl=en&location=Pune&ludocid=9089563060140718064&q=Acrepair+Pune",
+      "thumbnail": "https://serpapi.com/searches/6605aef98b7ed23494e36345/images/9722d5d78e02eaa13dce533ea7a269e5fc27379179841f36385e4e76db49b983.png",
+      "gps_coordinates": {
+        "latitude": 18.4953575,
+        "longitude": 73.81101629999999
+      },
+      "links": {
+        "directions": "https://www.google.com/maps/dir//Climate+Engineers,+SaiKunj+Society,+Lane+Number+7,+Dahanukar+Colony,+Kothrud,+Pune,+Maharashtra+411038,+India/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bc2bf8ea78c9857:0x7e249d71d33337f0?sa=X&ved=2ahUKEwispsrJw5eFAxUgv4kEHR2-B8gQ48ADegQIDhAA&hl=en&gl=us"
+      },
+      "title": "Climate Engineers",
+      "type": "Air conditioning repair service",
+      "address": "Pune, Maharashtra, India",
+      "years_in_business": "10+ years in business",
+      "phone": "+91 93712 35031",
+      "hours": "Closed ⋅ Opens 10 AM Fri"
+    },
+    {
+      "position": 9,
+      "rating": 4.9,
+      "reviews_original": "(70)",
+      "reviews": 70,
+      "description": "\"Very Good service AC repair\"",
+      "place_id": "6943540454121227676",
+      "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=us&google_domain=google.com&hl=en&location=Pune&ludocid=6943540454121227676&q=Acrepair+Pune",
+      "thumbnail": "https://serpapi.com/searches/6605aef98b7ed23494e36345/images/9722d5d78e02eaa188c0d7a4da5431e8d9ba58b09eafb569d2d2c3cdd10293ef.png",
+      "gps_coordinates": {
+        "latitude": 18.5952004,
+        "longitude": 73.7740479
+      },
+      "links": {
+        "website": "https://www.msservicesandcollingzone.com/",
+        "directions": "https://www.google.com/maps/dir//MS+Cooling+Zone+-+Ac+Repair,+Refrigerator,+Water+Purifier+Repair+Pune,+Mankar+Chowk+Rd,+Kaspate+Wasti,+Wakad,+Pimpri-Chinchwad,+Maharashtra+411019,+India/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bc2b97ad912b24d:0x605c69412b73459c?sa=X&ved=2ahUKEwispsrJw5eFAxUgv4kEHR2-B8gQ48ADegQIDBAA&hl=en&gl=us"
+      },
+      "title": "MS Cooling Zone - Ac Repair, Refrigerator, Water Purifier Repair Pune",
+      "type": "Air conditioning repair service",
+      "address": "Pimpri-Chinchwad, Maharashtra, India",
+      "phone": "+91 81497 68496",
+      "hours": "Closed ⋅ Opens 9 AM Fri"
+    },
+    {
+      "position": 10,
+      "rating": 4.9,
+      "reviews_original": "(39)",
+      "reviews": 39,
+      "description": "\"First class service and repair My Innova car best working on ac\"",
+      "place_id": "4914442192587900641",
+      "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=us&google_domain=google.com&hl=en&location=Pune&ludocid=4914442192587900641&q=Acrepair+Pune",
+      "thumbnail": "https://serpapi.com/searches/6605aef98b7ed23494e36345/images/9722d5d78e02eaa1f2d436d2bf8d91703c86c4d033221a0c634d1f32ea5bc985.png",
+      "gps_coordinates": {
+        "latitude": 18.469496,
+        "longitude": 73.8584619
+      },
+      "links": {
+        "website": "https://sites.google.com/view/azimcaracrepairs/home",
+        "directions": "https://www.google.com/maps/dir//AZIM+CAR+AC+REPAIR,+K+k+market,+Pune+-+Satara+Rd,+behind+Mahindra+showroom,+Dhankawadi,+Pune,+Maharashtra+411037,+India/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bc2eb7e95c54aa7:0x44339b22e664c6e1?sa=X&ved=2ahUKEwispsrJw5eFAxUgv4kEHR2-B8gQ48ADegQICRAA&hl=en&gl=us"
+      },
+      "title": "AZIM CAR AC REPAIR",
+      "type": "Auto air conditioning service",
+      "address": "Pune, Maharashtra, India",
+      "phone": "+91 98223 87313",
+      "hours": "Closed ⋅ Opens 9:30 AM Fri"
+    },
+    {
+      "position": 11,
+      "rating": 5,
+      "reviews_original": "(3.6K)",
+      "reviews": 3600,
+      "description": "\"Highly recommend getting your car AC troubles rectified here- A Happy coustomer 🙂👍🏻\"",
+      "place_id": "2945725953305996306",
+      "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=us&google_domain=google.com&hl=en&location=Pune&ludocid=2945725953305996306&q=Acrepair+Pune",
+      "thumbnail": "https://serpapi.com/searches/6605aef98b7ed23494e36345/images/9722d5d78e02eaa1aaf98f7f253aaaa84d0a6a1f6149baa5c4ec286d3a6e61d9.png",
+      "gps_coordinates": {
+        "latitude": 18.556299799999998,
+        "longitude": 73.90796089999999
+      },
+      "links": {
+        "website": "https://www.coolcarpune.com/",
+        "directions": "https://www.google.com/maps/dir//%22Cool+Car%22+Car+Ac+Repairs,+Opp.+Jeevan+Jyot+Hospital,+Kalyani+Nagar+Chowk,+Nagar+Rd,+Ramwadi,+Pune,+Maharashtra+411014,+India/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bc2c115ec9f3d15:0x28e15225bc73ec12?sa=X&ved=2ahUKEwispsrJw5eFAxUgv4kEHR2-B8gQ48ADegQICxAA&hl=en&gl=us"
+      },
+      "title": "\"Cool Car\" Car Ac Repairs",
+      "type": "Auto air conditioning service",
+      "address": "Pune, Maharashtra, India",
+      "phone": "+91 98220 45278",
+      "hours": "Closed ⋅ Opens 10 AM Fri"
+    },
+    {
+      "position": 12,
+      "rating": 4.6,
+      "reviews_original": "(28)",
+      "reviews": 28,
+      "description": "Provides: A/C system repair",
+      "place_id": "16581718261191870257",
+      "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=us&google_domain=google.com&hl=en&location=Pune&ludocid=16581718261191870257&q=Acrepair+Pune",
+      "thumbnail": "https://serpapi.com/searches/6605aef98b7ed23494e36345/images/9722d5d78e02eaa1199952d1bf0b6b8672cc13004c05a47c2dab0ede36d3b732.png",
+      "gps_coordinates": {
+        "latitude": 18.4982935,
+        "longitude": 73.85463310000002
+      },
+      "links": {
+        "directions": "https://www.google.com/maps/dir//Krisna%7Cair+conditioning,+Patil+Plaza,+309-B,+Saras+Baug,+Pune,+Maharashtra+411009,+India/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bc2c12c19eba19d:0xe61e18e7a3f30731?sa=X&ved=2ahUKEwispsrJw5eFAxUgv4kEHR2-B8gQ48ADegQIDRAA&hl=en&gl=us"
+      },
+      "title": "Krisna|air conditioning",
+      "type": "HVAC contractor",
+      "address": "Pune, Maharashtra, India",
+      "years_in_business": "3+ years in business",
+      "phone": "+91 93733 66609",
+      "hours": "Closed ⋅ Opens 10 AM Fri"
+    },
+    {
+      "position": 13,
+      "rating": 4.9,
+      "reviews_original": "(84)",
+      "reviews": 84,
+      "description": "Onsite services·Online estimates",
+      "place_id": "797677898932094338",
+      "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=us&google_domain=google.com&hl=en&location=Pune&ludocid=797677898932094338&q=Acrepair+Pune",
+      "gps_coordinates": {
+        "latitude": 18.4571619,
+        "longitude": 73.8033639
+      },
+      "service_options": {
+        "onsite_services": true,
+        "online_estimates": true
+      },
+      "links": {
+        "directions": "https://www.google.com/maps/dir//Mahesh+Enterprises+Ac+Repair+and+services,+Bk,+Sinhgad+Rd,+Jadhav+Nagar,+Vadgaon+Budruk,+Pune,+Maharashtra+411041,+India/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bc295b00299b965:0xb11ebd2a3070582?sa=X&ved=2ahUKEwispsrJw5eFAxUgv4kEHR2-B8gQ48ADegQIARAA&hl=en&gl=us"
+      },
+      "title": "Mahesh Enterprises Ac Repair and services",
+      "type": "Air conditioning repair service",
+      "address": "Pune, Maharashtra, India",
+      "years_in_business": "7+ years in business",
+      "phone": "+91 93722 32223",
+      "hours": "Open 24 hours"
+    },
+    {
+      "position": 14,
+      "rating": 4.9,
+      "reviews_original": "(93)",
+      "reviews": 93,
+      "description": "Provides: A/C system repair",
+      "place_id": "13493292038352534735",
+      "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=us&google_domain=google.com&hl=en&location=Pune&ludocid=13493292038352534735&q=Acrepair+Pune",
+      "thumbnail": "https://serpapi.com/searches/6605aef98b7ed23494e36345/images/9722d5d78e02eaa166b75cf3a074fa58b0404ba1ef070964ac379e72abf064e7.png",
+      "gps_coordinates": {
+        "latitude": 18.5019469,
+        "longitude": 73.86629169999999
+      },
+      "links": {
+        "directions": "https://www.google.com/maps/dir//Perfect+air+condition+services,+dalal+chouk,+24,+opposite+to+Muslim+Bank,+Ghorpade+Peth,+Swargate,+Pune,+Maharashtra+411042,+India/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bc2c1378fca150d:0xbb41cd9e4c9bfccf?sa=X&ved=2ahUKEwispsrJw5eFAxUgv4kEHR2-B8gQ48ADegQIBhAA&hl=en&gl=us"
+      },
+      "title": "Perfect air condition services",
+      "type": "Air conditioning repair service",
+      "address": "Pune, Maharashtra, India",
+      "phone": "+91 86260 45480",
+      "hours": "Open 24 hours"
+    },
+    {
+      "position": 15,
+      "rating": 4.5,
+      "reviews_original": "(269)",
+      "reviews": 269,
+      "description": "Onsite services·Online estimates",
+      "place_id": "12158239995763364499",
+      "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=us&google_domain=google.com&hl=en&location=Pune&ludocid=12158239995763364499&q=Acrepair+Pune",
+      "gps_coordinates": {
+        "latitude": 18.6129224,
+        "longitude": 73.7815193
+      },
+      "service_options": {
+        "onsite_services": true,
+        "online_estimates": true
+      },
+      "links": {
+        "website": "https://www.omkarrefrigeration.com/",
+        "directions": "https://www.google.com/maps/dir//Omkar+Refrigeration+-+Ac,+washing+machine,+fridge+repair+servicing,+Sr.+no.+5%2F2,+Samta+hsg.+Society,+Nakhate+Nagar,+Pune,+Maharashtra+411033,+India/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bc2b95bed52c3dd:0xa8babedbe96c1293?sa=X&ved=2ahUKEwispsrJw5eFAxUgv4kEHR2-B8gQ48ADegQIBBAA&hl=en&gl=us"
+      },
+      "title": "Omkar Refrigeration - Ac, washing machine, fridge repair servicing",
+      "type": "Air conditioning repair service",
+      "address": "Pune, Maharashtra, India",
+      "years_in_business": "10+ years in business",
+      "phone": "+91 99213 47494",
+      "hours": "Closed ⋅ Opens 9 AM Fri"
+    },
+    {
+      "position": 16,
+      "rating": 4.8,
+      "reviews_original": "(52)",
+      "reviews": 52,
+      "description": "Provides: A/C system repair",
+      "place_id": "13405093172454525929",
+      "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=us&google_domain=google.com&hl=en&location=Pune&ludocid=13405093172454525929&q=Acrepair+Pune",
+      "thumbnail": "https://serpapi.com/searches/6605aef98b7ed23494e36345/images/9722d5d78e02eaa12f0fd0db1164acc817693e3b3dcbc6b56206624bab6d0992.png",
+      "gps_coordinates": {
+        "latitude": 18.5080492,
+        "longitude": 73.8754611
+      },
+      "links": {
+        "website": "http://www.aljumerah.com/",
+        "directions": "https://www.google.com/maps/dir//Shop+No.2,+Al+Jumerah+Enterprises,+Navin+Hind+High+School+Bldg,+775,+College,+next+to+Poona,+Bhawani+Peth,+Pune,+Maharashtra+411042,+India/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bc2c1dc11e8e7fb:0xba087537952a8be9?sa=X&ved=2ahUKEwispsrJw5eFAxUgv4kEHR2-B8gQ48ADegQICBAA&hl=en&gl=us"
+      },
+      "title": "Al Jumerah Enterprises",
+      "type": "Air conditioning repair service",
+      "address": "Pune, Maharashtra, India",
+      "years_in_business": "3+ years in business",
+      "phone": "+91 91562 22260",
+      "hours": "Open 24 hours"
+    },
+    {
+      "position": 17,
+      "rating": 4.8,
+      "reviews_original": "(398)",
+      "reviews": 398,
+      "description": "Provides: A C Repair",
+      "place_id": "12929630844283280734",
+      "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=us&google_domain=google.com&hl=en&location=Pune&ludocid=12929630844283280734&q=Acrepair+Pune",
+      "thumbnail": "https://serpapi.com/searches/6605aef98b7ed23494e36345/images/9722d5d78e02eaa10bb6739172bfeadf36f403d53bbc1b29c679fec552c17f72.png",
+      "gps_coordinates": {
+        "latitude": 18.5400738,
+        "longitude": 73.9337336
+      },
+      "links": {
+        "website": "http://www.universalservicess.com/",
+        "directions": "https://www.google.com/maps/dir//Universal+services,+Vishwahira+complex,+14,+Raghoba+Patil+Nagar,+Sainath+Nagar,+Wadgaon+Sheri,+Pune,+Maharashtra+411014,+India/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bc2c1791555555f:0xb36f46bfae705d5e?sa=X&ved=2ahUKEwispsrJw5eFAxUgv4kEHR2-B8gQ48ADegQIBRAA&hl=en&gl=us"
+      },
+      "title": "Universal services",
+      "type": "Appliance repair service",
+      "address": "Pune, Maharashtra, India",
+      "years_in_business": "10+ years in business",
+      "phone": "+91 88885 33210",
+      "hours": "Open 24 hours"
+    },
+    {
+      "position": 18,
+      "rating": 5,
+      "reviews_original": "(81)",
+      "reviews": 81,
+      "description": "Provides: All Type AC Repair And Servicing",
+      "place_id": "16738714618844944619",
+      "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=us&google_domain=google.com&hl=en&location=Pune&ludocid=16738714618844944619&q=Acrepair+Pune",
+      "thumbnail": "https://serpapi.com/searches/6605aef98b7ed23494e36345/images/9722d5d78e02eaa1fa0525d4fd8dec4b21705e78229430d35f6160d8f7a5656d.png",
+      "gps_coordinates": {
+        "latitude": 18.4751147,
+        "longitude": 73.8934773
+      },
+      "links": {
+        "website": "https://sites.google.com/view/aimenterprises/home",
+        "directions": "https://www.google.com/maps/dir//AIM+ENTERPRISES,+Shop+no.1+D.K.+tower+kausarbag+road,+pune-48,+next+to+welcome+holl,+Pune,+Maharashtra+411048,+India/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bc2eb82761a789d:0xe84bdc42a4e418eb?sa=X&ved=2ahUKEwispsrJw5eFAxUgv4kEHR2-B8gQ48ADegQIAhAA&hl=en&gl=us"
+      },
+      "title": "AIM ENTERPRISES",
+      "type": "Air conditioning repair service",
+      "address": "Pune, Maharashtra, India",
+      "years_in_business": "3+ years in business",
+      "phone": "+91 78419 01015",
+      "hours": "Open 24 hours"
+    },
+    {
+      "position": 19,
+      "rating": 4.9,
+      "reviews_original": "(23)",
+      "reviews": 23,
+      "description": "Onsite services·Online estimates",
+      "place_id": "6246772611504095127",
+      "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=us&google_domain=google.com&hl=en&location=Pune&ludocid=6246772611504095127&q=Acrepair+Pune",
+      "gps_coordinates": {
+        "latitude": 18.47157,
+        "longitude": 73.8862884
+      },
+      "service_options": {
+        "onsite_services": true,
+        "online_estimates": true
+      },
+      "links": {
+        "website": "http://www.lifecoolairconditioner.com/",
+        "directions": "https://www.google.com/maps/dir//shop+no+1,+Life+cool+air+conditioner,+Mauli+Niwas+App,+near+bio+lab,+Bhagyoday+Nagar,+Kondhwa,+Pune,+Maharashtra+411048,+India/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bc2eb2841729c45:0x56b0fe97e5573f97?sa=X&ved=2ahUKEwispsrJw5eFAxUgv4kEHR2-B8gQ48ADegQIBxAA&hl=en&gl=us"
+      },
+      "title": "Life cool air conditioner",
+      "type": "Air conditioning repair service",
+      "address": "Pune, Maharashtra, India",
+      "years_in_business": "10+ years in business",
+      "phone": "+91 99755 51431",
+      "hours": "Open 24 hours"
+    },
+    {
+      "position": 20,
+      "rating": 5,
+      "reviews_original": "(41)",
+      "reviews": 41,
+      "description": "Provides: Ac Repair",
+      "place_id": "3168464009875556063",
+      "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=us&google_domain=google.com&hl=en&location=Pune&ludocid=3168464009875556063&q=Acrepair+Pune",
+      "thumbnail": "https://serpapi.com/searches/6605aef98b7ed23494e36345/images/9722d5d78e02eaa182d2aecba5a83e5a4b731393e7c773bd7a8d432c80786277.png",
+      "gps_coordinates": {
+        "latitude": 18.4987588,
+        "longitude": 73.94450739999999
+      },
+      "links": {
+        "website": "http://www.hireman.in/",
+        "directions": "https://www.google.com/maps/dir//Sr+No+13,+HIREMAN-CRYSTAL+REFRIGERATION+AND+AIR+CONDITIONING,+rahul+colony,+Hadapsar,+Pune,+Maharashtra+411028,+India/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bc2c3a43c517241:0x2bf8a53ad03e06df?sa=X&ved=2ahUKEwispsrJw5eFAxUgv4kEHR2-B8gQ48ADegQIAxAA&hl=en&gl=us"
+      },
+      "title": "HIREMAN-CRYSTAL REFRIGERATION AND AIR CONDITIONING",
+      "type": "Air conditioning contractor",
+      "address": "Pune, Maharashtra, India",
+      "years_in_business": "7+ years in business",
+      "hours": "Closed ⋅ Opens 9 AM Fri"
+    }
+  ],
+  "pagination": {
+    "current": 1,
+    "next": "https://www.google.com/search?q=Acrepair+Pune&hl=en&gl=us&start=20&tbm=lcl",
+    "other_pages": {
+      "2": "https://www.google.com/search?q=Acrepair+Pune&hl=en&gl=us&start=20&tbm=lcl",
+      "3": "https://www.google.com/search?q=Acrepair+Pune&hl=en&gl=us&start=40&tbm=lcl",
+      "4": "https://www.google.com/search?q=Acrepair+Pune&hl=en&gl=us&start=60&tbm=lcl",
+      "5": "https://www.google.com/search?q=Acrepair+Pune&hl=en&gl=us&start=80&tbm=lcl"
+    }
+  },
+  "serpapi_pagination": {
+    "current": 1,
+    "next_link": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=us&google_domain=google.com&hl=en&location=Pune&q=Acrepair+Pune&start=20",
+    "next": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=us&google_domain=google.com&hl=en&location=Pune&q=Acrepair+Pune&start=20",
+    "other_pages": {
+      "2": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=us&google_domain=google.com&hl=en&location=Pune&q=Acrepair+Pune&start=20",
+      "3": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=us&google_domain=google.com&hl=en&location=Pune&q=Acrepair+Pune&start=40",
+      "4": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=us&google_domain=google.com&hl=en&location=Pune&q=Acrepair+Pune&start=60",
+      "5": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=us&google_domain=google.com&hl=en&location=Pune&q=Acrepair+Pune&start=80"
+    }
+  }
+}

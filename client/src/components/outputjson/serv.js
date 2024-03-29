@@ -4,7 +4,7 @@ const fs = require('fs'); // Import the fs module for file system operations
 
 const query_params = {
     api_key: "4d612654e4e0674267452aba3c1d2877960c21cbf4ee0b061696118f52c9c50d",
-    q: "Plumber Pune", // Your search query
+    q: "Carpenter Pune", // Your search query
     google_domain: "google.com",
     location: "Pune", // Specify the location for the search
     tbm: "lcl", 
@@ -16,7 +16,7 @@ const query_params = {
 // const fileName = query_params.q.replace(/\s+/g, '-').toLowerCase();
 
 search.json(query_params, (data) => {
-    fs.writeFile(`1search_results.json`, JSON.stringify(data, null, 2), (err) => {
+    fs.writeFile(`carpenter.json`, JSON.stringify(data, null, 2), (err) => {
         if (err) {
             console.error(err);
             return;

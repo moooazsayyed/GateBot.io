@@ -25,8 +25,10 @@ export default function Navbar() {
             <a href="#"><FontAwesomeIcon icon={faMessage} style={{ color: '#000000' }} /></a>
           </div>
           <div className="account">
-            <img src="https://preview.redd.it/htd1cssoujc51.png?auto=webp&s=ea7a4436e56a4e9e5da43549b7bb90aefd842195" alt="" />
-          </div>
+          <Link to="/home/details">
+          <img src="https://preview.redd.it/htd1cssoujc51.png?auto=webp&s=ea7a4436e56a4e9e5da43549b7bb90aefd842195" alt="" />
+          </Link>
+         </div>
         </div>
       </div>
     </div>

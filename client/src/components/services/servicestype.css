@@ -1,0 +1,32 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #d9534f; /* Red border color */
+  border-radius: 5px;
+  background-color: #ffffff; /* White background color */
+  color: #d9534f; /* Dark red text color */
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.card-icon {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.card-content {
+  flex: 1;
+}
+
+.card-actions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.card-actions a {
+  color: #d9534f; /* Dark red link color */
+}
+
+.card-actions a:hover {
+  text-decoration: underline;
+}

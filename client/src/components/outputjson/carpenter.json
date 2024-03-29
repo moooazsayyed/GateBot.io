@@ -1,0 +1,534 @@
+{
+  "search_metadata": {
+    "id": "6605b59b2e7d6b2857d9f655",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/6777a2a9805413ec/6605b59b2e7d6b2857d9f655.json",
+    "created_at": "2024-03-28 18:23:23 UTC",
+    "processed_at": "2024-03-28 18:23:23 UTC",
+    "google_local_url": "https://www.google.com/search?q=Carpenter+Pune&uule=w+CAIQICIWUHVuZSxNYWhhcmFzaHRyYSxJbmRpYQ&hl=en&gl=us&tbm=lcl",
+    "raw_html_file": "https://serpapi.com/searches/6777a2a9805413ec/6605b59b2e7d6b2857d9f655.html",
+    "total_time_taken": 1.7
+  },
+  "search_parameters": {
+    "engine": "google_local",
+    "q": "Carpenter Pune",
+    "location_requested": "Pune",
+    "location_used": "Pune,Maharashtra,India",
+    "google_domain": "google.com",
+    "hl": "en",
+    "gl": "us",
+    "device": "desktop"
+  },
+  "local_results": [
+    {
+      "position": 1,
+      "rating": 5,
+      "reviews_original": "(29)",
+      "reviews": 29,
+      "description": "\"Best thing about this is that the service is fast done by them.\"",
+      "place_id": "16529354863343055047",
+      "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=us&google_domain=google.com&hl=en&location=Pune&ludocid=16529354863343055047&q=Carpenter+Pune",
+      "thumbnail": "https://serpapi.com/searches/6605b59b2e7d6b2857d9f655/images/3fc3a4c7373816273a2837764ed9d62385e2903dfd0cc0b5eda7ce466fbb64b4.png",
+      "gps_coordinates": {
+        "latitude": 18.5256586,
+        "longitude": 73.8515905
+      },
+      "links": {
+        "directions": "https://www.google.com/maps/dir//Om+Sai+Interior+Designer+%26+Carpenter,+Shivaji+Nagar+Pune+.5,+Pune,+Maharashtra+411005,+India/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bc2c14d07b4ab93:0xe56410ac03f030c7?sa=X&ved=2ahUKEwiCgJ3zyZeFAxVrefUHHS2jDgIQ48ADegQIFBAA&hl=en&gl=us"
+      },
+      "title": "Om Sai Interior Designer & Carpenter",
+      "type": "Carpenter",
+      "address": "Shivaji Nagar Pune .5",
+      "phone": "+91 99608 48783",
+      "hours": "Open 24 hours"
+    },
+    {
+      "position": 2,
+      "rating": 4.8,
+      "reviews_original": "(130)",
+      "reviews": 130,
+      "description": "Onsite services·Online estimates",
+      "place_id": "3527678372582617705",
+      "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=us&google_domain=google.com&hl=en&location=Pune&ludocid=3527678372582617705&q=Carpenter+Pune",
+      "gps_coordinates": {
+        "latitude": 18.536554499999998,
+        "longitude": 73.90005719999999
+      },
+      "service_options": {
+        "onsite_services": true,
+        "online_estimates": true
+      },
+      "links": {
+        "directions": "https://www.google.com/maps/dir//HK+Furnitures+%26+Carpenter,+Vardhaman+Hardware,+Lane+No.+7,+Kalyani+Nagar,+Pune,+Maharashtra+411006,+India/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bc2c13f487eadaf:0x30f4d4ca179d7269?sa=X&ved=2ahUKEwiCgJ3zyZeFAxVrefUHHS2jDgIQ48ADegQIFRAA&hl=en&gl=us"
+      },
+      "title": "HK Furnitures & Carpenter",
+      "type": "Carpenter",
+      "address": "Vardhaman Hardware, Lane No. 7",
+      "years_in_business": "15+ years in business",
+      "phone": "+91 84840 88374",
+      "hours": "Open 24 hours"
+    },
+    {
+      "position": 3,
+      "rating": 4.8,
+      "reviews_original": "(295)",
+      "reviews": 295,
+      "description": "Onsite services·Online estimates",
+      "place_id": "6623281080283674435",
+      "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=us&google_domain=google.com&hl=en&location=Pune&ludocid=6623281080283674435&q=Carpenter+Pune",
+      "gps_coordinates": {
+        "latitude": 18.456887899999998,
+        "longitude": 73.8740559
+      },
+      "service_options": {
+        "onsite_services": true,
+        "online_estimates": true
+      },
+      "links": {
+        "directions": "https://www.google.com/maps/dir//Ghevarchand+Suthar+%26+Asso.,+Sr%2Fno.+96%2F60,+Sukhsagarnagar+bhag-2,+Lane+Number+5,+Sainagar,+Kondhwa+Budruk,+Pune,+Maharashtra+411048,+India/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bc2eb101aa7b889:0x5bea9f0d05dfb743?sa=X&ved=2ahUKEwiCgJ3zyZeFAxVrefUHHS2jDgIQ48ADegQIExAA&hl=en&gl=us"
+      },
+      "title": "Ghevarchand Suthar & Asso.",
+      "type": "Carpenter",
+      "address": "Sr/no. 96/60, Sukhsagarnagar bhag-2, Lane Number 5",
+      "years_in_business": "5+ years in business",
+      "phone": "+91 98225 14682",
+      "hours": "Open 24 hours"
+    },
+    {
+      "position": 4,
+      "rating": 4.5,
+      "reviews_original": "(78)",
+      "reviews": 78,
+      "description": "\"Excellent service with punctual and friendly staff\"",
+      "place_id": "4277001133731423686",
+      "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=us&google_domain=google.com&hl=en&location=Pune&ludocid=4277001133731423686&q=Carpenter+Pune",
+      "thumbnail": "https://serpapi.com/searches/6605b59b2e7d6b2857d9f655/images/3fc3a4c737381627e42632f70478b62b7cdac2b4093b036328e116b865ac0614.png",
+      "gps_coordinates": {
+        "latitude": 18.5283554,
+        "longitude": 73.8294083
+      },
+      "links": {
+        "website": "http://www.toolman.in/",
+        "directions": "https://www.google.com/maps/dir//carpenter,+glass,plumber,+electrician+%7C+Repair+services+%7Cwww.toolman.in,+Goklenager+road%2F+wakad%2FAundh%2FBaner%2Fpashan+Pimple+soudager%2FPimpri+Chinchwad%2Fkhadki,+Visharant+Wadi,+Ravet,+Pune,+Maharashtra+411016,+India/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bc2bf777f72a7ab:0x3b5af5dee00125c6?sa=X&ved=2ahUKEwiCgJ3zyZeFAxVrefUHHS2jDgIQ48ADegQIEhAA&hl=en&gl=us"
+      },
+      "title": "carpenter, glass,plumber, electrician | Repair services |www.toolman.in",
+      "type": "Carpenter",
+      "address": "Goklenager road/ wakad/Aundh/Baner/pashan Pimple soudager/Pimpri Chinchwad/khadki, Visharant Wadi",
+      "years_in_business": "20+ years in business",
+      "phone": "+91 96893 09309",
+      "hours": "Open 24 hours"
+    },
+    {
+      "position": 5,
+      "rating": 4.8,
+      "reviews_original": "(60)",
+      "reviews": 60,
+      "description": "Onsite services·Online estimates",
+      "place_id": "8543364854294731925",
+      "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=us&google_domain=google.com&hl=en&location=Pune&ludocid=8543364854294731925&q=Carpenter+Pune",
+      "gps_coordinates": {
+        "latitude": 18.5489778,
+        "longitude": 73.905551
+      },
+      "service_options": {
+        "onsite_services": true,
+        "online_estimates": true
+      },
+      "links": {
+        "directions": "https://www.google.com/maps/dir//gulistan+furniture's,+vardhaman+hardware,+Kalyani+Nagar,+Pune,+Maharashtra+411006,+India/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bc2c1ccadd0c1af:0x76902111fecb5c95?sa=X&ved=2ahUKEwiCgJ3zyZeFAxVrefUHHS2jDgIQ48ADegQIDhAA&hl=en&gl=us"
+      },
+      "title": "gulistan furniture's",
+      "type": "Carpenter",
+      "address": "vardhaman hardware",
+      "years_in_business": "3+ years in business",
+      "phone": "+91 98226 61754",
+      "hours": "Open 24 hours"
+    },
+    {
+      "position": 6,
+      "rating": 4.8,
+      "reviews_original": "(53)",
+      "reviews": 53,
+      "description": "Onsite services·Online estimates",
+      "place_id": "1752072478942124256",
+      "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=us&google_domain=google.com&hl=en&location=Pune&ludocid=1752072478942124256&q=Carpenter+Pune",
+      "gps_coordinates": {
+        "latitude": 18.5462313,
+        "longitude": 73.90395099999999
+      },
+      "service_options": {
+        "onsite_services": true,
+        "online_estimates": true
+      },
+      "links": {
+        "directions": "https://www.google.com/maps/dir//My+Carpenter,+Kalyani+Nagar,+Pune,+Maharashtra+411006,+India/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bc2c1741c1300ff:0x18509ca3001558e0?sa=X&ved=2ahUKEwiCgJ3zyZeFAxVrefUHHS2jDgIQ48ADegQIEBAA&hl=en&gl=us"
+      },
+      "title": "My Carpenter",
+      "type": "Carpenter",
+      "address": "Pune, Maharashtra, India",
+      "phone": "+91 78430 65287",
+      "hours": "Open 24 hours"
+    },
+    {
+      "position": 7,
+      "rating": 5,
+      "reviews_original": "(23)",
+      "reviews": 23,
+      "description": "\"Great experience working with m k furniture's and carpenter.\"",
+      "place_id": "11123643059976300620",
+      "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=us&google_domain=google.com&hl=en&location=Pune&ludocid=11123643059976300620&q=Carpenter+Pune",
+      "thumbnail": "https://serpapi.com/searches/6605b59b2e7d6b2857d9f655/images/3fc3a4c73738162729b7d2109c879146651c98e5166af5e481d4019d1e96467e.png",
+      "gps_coordinates": {
+        "latitude": 18.5505685,
+        "longitude": 73.88182189999999
+      },
+      "links": {
+        "directions": "https://www.google.com/maps/dir//sarve+number+12,+M.K+furniture+Carpenter+service,+MAHALAXMI+PROVISION+STORE,+Laxmi+Nagar,+Yerawada,+Pune,+Maharashtra+411006,+India/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bc2c1b632939f2d:0x9a5f1e6d6e20684c?sa=X&ved=2ahUKEwiCgJ3zyZeFAxVrefUHHS2jDgIQ48ADegQIDxAA&hl=en&gl=us"
+      },
+      "title": "M.K furniture Carpenter service",
+      "type": "Carpenter",
+      "address": "sarve number 12, MAHALAXMI PROVISION STORE",
+      "years_in_business": "25+ years in business",
+      "phone": "+91 63902 40646",
+      "hours": "Open 24 hours"
+    },
+    {
+      "position": 8,
+      "rating": 4.9,
+      "reviews_original": "(120)",
+      "reviews": 120,
+      "description": "\"For my TV unit wall installation Amazing work done by Faizan.\"",
+      "place_id": "2741167668579460789",
+      "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=us&google_domain=google.com&hl=en&location=Pune&ludocid=2741167668579460789&q=Carpenter+Pune",
+      "thumbnail": "https://serpapi.com/searches/6605b59b2e7d6b2857d9f655/images/3fc3a4c73738162798d5d0436436ba3a0ffbced226cc3dfae26447d53ee95366.png",
+      "gps_coordinates": {
+        "latitude": 18.5561991,
+        "longitude": 73.90787879999999
+      },
+      "links": {
+        "website": "http://newfurniture.co.in/",
+        "directions": "https://www.google.com/maps/dir//New+furnitures+%26+reparing+work,+Ramwadi+jakatnaka,+Nagar+Rd,+near+canra+bank,+near+NTC+marbal,+Pune,+Maharashtra+411014,+India/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bc2c1f812b7838b:0x260a9578a376e6b5?sa=X&ved=2ahUKEwiCgJ3zyZeFAxVrefUHHS2jDgIQ48ADegQIERAA&hl=en&gl=us"
+      },
+      "title": "New furnitures & reparing work",
+      "type": "Carpenter",
+      "address": "Ramwadi jakatnaka, Nagar Rd, near canra bank, near NTC marbal",
+      "years_in_business": "20+ years in business",
+      "phone": "+91 88558 17602",
+      "hours": "Open 24 hours"
+    },
+    {
+      "position": 9,
+      "rating": 4.6,
+      "reviews_original": "(28)",
+      "reviews": 28,
+      "description": "\"Work so fast on time thks sirji\"",
+      "place_id": "8385699757517382544",
+      "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=us&google_domain=google.com&hl=en&location=Pune&ludocid=8385699757517382544&q=Carpenter+Pune",
+      "thumbnail": "https://serpapi.com/searches/6605b59b2e7d6b2857d9f655/images/3fc3a4c7373816278adc0631f4b7fc63f818e4bd4ad8b4d4986fd3a54b973219.png",
+      "gps_coordinates": {
+        "latitude": 18.5527989,
+        "longitude": 73.8841731
+      },
+      "links": {
+        "directions": "https://www.google.com/maps/dir//Carpenter,+Ganesh+Nagar,+Yerawada,+Pune,+Maharashtra+411006,+India/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bc2c1e49c744d91:0x745ffd8007e72390?sa=X&ved=2ahUKEwiCgJ3zyZeFAxVrefUHHS2jDgIQ48ADegQIDRAA&hl=en&gl=us"
+      },
+      "title": "Carpenter",
+      "type": "Carpenter",
+      "address": "Pune, Maharashtra, India",
+      "years_in_business": "5+ years in business",
+      "phone": "+91 80876 27081",
+      "hours": "Open 24 hours"
+    },
+    {
+      "position": 10,
+      "rating": 4.8,
+      "reviews_original": "(162)",
+      "reviews": 162,
+      "description": "Onsite services·Online estimates",
+      "place_id": "189465992878823814",
+      "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=us&google_domain=google.com&hl=en&location=Pune&ludocid=189465992878823814&q=Carpenter+Pune",
+      "gps_coordinates": {
+        "latitude": 18.534649899999998,
+        "longitude": 73.82691659999999
+      },
+      "service_options": {
+        "onsite_services": true,
+        "online_estimates": true
+      },
+      "links": {
+        "website": "http://www.rahulinteriors.com/",
+        "directions": "https://www.google.com/maps/dir//Rahul+Carpenters+%26+interior+contractors+(Decorate+your+house+with+arts+),+Marriott+hotel+Shivaji+housing+society+Bhairat,+Udyan,+Senapati+Bapat+Rd,+Shivajinagar,+Pune,+Maharashtra+411016,+India/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bc2bf9d5912fd7b:0x2a11e51128f1986?sa=X&ved=2ahUKEwiCgJ3zyZeFAxVrefUHHS2jDgIQ48ADegQICxAA&hl=en&gl=us"
+      },
+      "title": "Rahul Carpenters & interior contractors (Decorate your house with arts )",
+      "type": "Carpenter",
+      "address": "Marriott hotel Shivaji housing society Bhairat, Udyan, Senapati Bapat Rd",
+      "years_in_business": "15+ years in business",
+      "phone": "+91 91305 19896",
+      "hours": "Closed ⋅ Opens 8:30 AM Fri"
+    },
+    {
+      "position": 11,
+      "rating": 4.9,
+      "reviews_original": "(42)",
+      "reviews": 42,
+      "description": "Onsite services·Online estimates",
+      "place_id": "9589979336091218003",
+      "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=us&google_domain=google.com&hl=en&location=Pune&ludocid=9589979336091218003&q=Carpenter+Pune",
+      "gps_coordinates": {
+        "latitude": 18.5798111,
+        "longitude": 73.7641757
+      },
+      "service_options": {
+        "onsite_services": true,
+        "online_estimates": true
+      },
+      "links": {
+        "directions": "https://www.google.com/maps/dir//Krishna+carpenter,+Ashtavinayak+mandir,+Omkar+apartment,+Patil+Nagar,+Balewadi,+Pune,+Maharashtra+411045,+India/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bc2b90e4e3d714b:0x85167365730db053?sa=X&ved=2ahUKEwiCgJ3zyZeFAxVrefUHHS2jDgIQ48ADegQIChAA&hl=en&gl=us"
+      },
+      "title": "Krishna carpenter",
+      "type": "Carpenter",
+      "address": "Ashtavinayak mandir, Omkar apartment",
+      "years_in_business": "7+ years in business",
+      "phone": "+91 76669 97185",
+      "hours": "Open 24 hours"
+    },
+    {
+      "position": 12,
+      "rating": 4.9,
+      "reviews_original": "(47)",
+      "reviews": 47,
+      "description": "\"Recently done kitchen cabinets from him.\"",
+      "place_id": "16170798325246157899",
+      "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=us&google_domain=google.com&hl=en&location=Pune&ludocid=16170798325246157899&q=Carpenter+Pune",
+      "thumbnail": "https://serpapi.com/searches/6605b59b2e7d6b2857d9f655/images/3fc3a4c737381627922c82ea583f8f8b736eb7fe4e5514adadeeea5a7f1ddf21.png",
+      "gps_coordinates": {
+        "latitude": 18.5959737,
+        "longitude": 73.7704237
+      },
+      "links": {
+        "website": "https://babaloo-furniture-and-alluminium.business.site/?utm_source=gmb&utm_medium=referral",
+        "directions": "https://www.google.com/maps/dir//Babaloo+Furniture+and+Alluminium,+R.K.+Lunkad's+Nisarg+Deep+1,+C%2Fo+Nikitasha+Boutique,+Shop+no.+02,+Kaspate+Wasti,+Wakad,+Pune,+Maharashtra+411057,+India/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bc2b9cd469cfe39:0xe06a376676c7644b?sa=X&ved=2ahUKEwiCgJ3zyZeFAxVrefUHHS2jDgIQ48ADegQIDBAA&hl=en&gl=us"
+      },
+      "title": "Babaloo Furniture and Alluminium",
+      "type": "Carpenter",
+      "address": "R.K. Lunkad's Nisarg Deep 1, C/o Nikitasha Boutique, Shop no. 02",
+      "years_in_business": "3+ years in business",
+      "phone": "+91 99236 43174",
+      "hours": "Open 24 hours"
+    },
+    {
+      "position": 13,
+      "rating": 4.8,
+      "reviews_original": "(38)",
+      "reviews": 38,
+      "description": "\"His work is a perfect and well finished.\"",
+      "place_id": "17760029020926003668",
+      "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=us&google_domain=google.com&hl=en&location=Pune&ludocid=17760029020926003668&q=Carpenter+Pune",
+      "thumbnail": "https://serpapi.com/searches/6605b59b2e7d6b2857d9f655/images/3fc3a4c737381627d58a16d8a4468c16c3b64bf767bf6f9c2db640420a3a88cd.png",
+      "gps_coordinates": {
+        "latitude": 18.5578404,
+        "longitude": 73.9385254
+      },
+      "links": {
+        "directions": "https://www.google.com/maps/dir//HW5Q%2B4CJ+Carpenter+Furniture+Services,+Ashoka+Nagar,+Kharadi,+Pune,+Maharashtra+411014,+India/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bc2c367a615624f:0xf6784c4c40ec49d4?sa=X&ved=2ahUKEwiCgJ3zyZeFAxVrefUHHS2jDgIQ48ADegQICBAA&hl=en&gl=us"
+      },
+      "title": "Carpenter Furniture Services",
+      "type": "Carpenter",
+      "address": "HW5Q+4CJ",
+      "years_in_business": "15+ years in business",
+      "phone": "+91 98220 26474",
+      "hours": "Open 24 hours"
+    },
+    {
+      "position": 14,
+      "rating": 4.9,
+      "reviews_original": "(34)",
+      "reviews": 34,
+      "description": "Onsite services·Online estimates",
+      "place_id": "4871334621760637410",
+      "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=us&google_domain=google.com&hl=en&location=Pune&ludocid=4871334621760637410&q=Carpenter+Pune",
+      "gps_coordinates": {
+        "latitude": 18.565953800000003,
+        "longitude": 73.7758922
+      },
+      "service_options": {
+        "onsite_services": true,
+        "online_estimates": true
+      },
+      "links": {
+        "directions": "https://www.google.com/maps/dir//Jagdish+carpenter,+Near+madhuban+society+Rd,+411045,+behind+MITCON,+Balewadi,+Pune,+Maharashtra+411045,+India/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bc2b94f61d923f7:0x439a7507701ac9e2?sa=X&ved=2ahUKEwiCgJ3zyZeFAxVrefUHHS2jDgIQ48ADegQIBRAA&hl=en&gl=us"
+      },
+      "title": "Jagdish carpenter",
+      "type": "Carpenter",
+      "address": "Near madhuban society Rd, 411045, behind MITCON",
+      "phone": "+91 97849 86587",
+      "hours": "Open 24 hours"
+    },
+    {
+      "position": 15,
+      "rating": 4.8,
+      "reviews_original": "(39)",
+      "reviews": 39,
+      "description": "\"Very good and experienced carpenter.Very polite and hardworking.\"",
+      "place_id": "17571211496321684629",
+      "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=us&google_domain=google.com&hl=en&location=Pune&ludocid=17571211496321684629&q=Carpenter+Pune",
+      "thumbnail": "https://serpapi.com/searches/6605b59b2e7d6b2857d9f655/images/3fc3a4c737381627dcc7beb0625851d69b84bcfcccf09039721d84b983d885a2.png",
+      "gps_coordinates": {
+        "latitude": 18.5679375,
+        "longitude": 73.9143125
+      },
+      "links": {
+        "directions": "https://www.google.com/maps/dir//Sanjay+Furniture+works,+Viman+Nagar,+Pune,+Maharashtra+411014,+India/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bc2c12b2dcc1aed:0xf3d97bc277839495?sa=X&ved=2ahUKEwiCgJ3zyZeFAxVrefUHHS2jDgIQ48ADegQIBhAA&hl=en&gl=us"
+      },
+      "title": "Sanjay Furniture works",
+      "type": "Carpenter",
+      "address": "Pune, Maharashtra, India",
+      "years_in_business": "15+ years in business",
+      "phone": "+91 91729 27505",
+      "hours": "Open 24 hours"
+    },
+    {
+      "position": 16,
+      "rating": 4.8,
+      "reviews_original": "(35)",
+      "reviews": 35,
+      "description": "\"Hired for Almirah assemble.\"",
+      "place_id": "3834094463929638199",
+      "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=us&google_domain=google.com&hl=en&location=Pune&ludocid=3834094463929638199&q=Carpenter+Pune",
+      "thumbnail": "https://serpapi.com/searches/6605b59b2e7d6b2857d9f655/images/3fc3a4c7373816279ca91b8dafbfc22c9a2b8a4582c619d164cf88d333111c77.png",
+      "gps_coordinates": {
+        "latitude": 18.5685717,
+        "longitude": 73.77920449999999
+      },
+      "links": {
+        "directions": "https://www.google.com/maps/dir//Meera+Carpenter+-+Furniture+%26+Interior+Works,+Ramesh+Suthar,+House+No.+439,+Ram+Indu+Park,+Baner+-+Mahalunge+Rd,+Baner,+Pune,+Maharashtra+411045,+India/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bc2bfb3ffc7819f:0x35357099ddd15d37?sa=X&ved=2ahUKEwiCgJ3zyZeFAxVrefUHHS2jDgIQ48ADegQIAxAA&hl=en&gl=us"
+      },
+      "title": "Meera Carpenter - Furniture & Interior Works",
+      "type": "Carpenter",
+      "address": "Ramesh Suthar, House No. 439, Ram Indu Park, Baner - Mahalunge Rd",
+      "phone": "+91 80057 16388",
+      "hours": "Open 24 hours"
+    },
+    {
+      "position": 17,
+      "rating": 4.7,
+      "reviews_original": "(26)",
+      "reviews": 26,
+      "description": "Onsite services·Online estimates",
+      "place_id": "18203522559820593002",
+      "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=us&google_domain=google.com&hl=en&location=Pune&ludocid=18203522559820593002&q=Carpenter+Pune",
+      "gps_coordinates": {
+        "latitude": 18.5145025,
+        "longitude": 73.9335207
+      },
+      "service_options": {
+        "onsite_services": true,
+        "online_estimates": true
+      },
+      "links": {
+        "directions": "https://www.google.com/maps/dir//Royal+furniture+%26+Interior+work,+Mahalaxmi,+Kalyani+Nagar,+Maharashtra+411014,+India/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bc2c1284e458897:0xfc9fe7525eea776a?sa=X&ved=2ahUKEwiCgJ3zyZeFAxVrefUHHS2jDgIQ48ADegQIBBAA&hl=en&gl=us"
+      },
+      "title": "Royal furniture & Interior work",
+      "type": "Carpenter",
+      "address": "Mahalaxmi",
+      "years_in_business": "15+ years in business",
+      "phone": "+91 90286 17430",
+      "hours": "Open 24 hours"
+    },
+    {
+      "position": 18,
+      "rating": 4.9,
+      "reviews_original": "(49)",
+      "reviews": 49,
+      "description": "\"Work and finishings are quite good and recommendeble 👍\"",
+      "place_id": "14592170464284540733",
+      "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=us&google_domain=google.com&hl=en&location=Pune&ludocid=14592170464284540733&q=Carpenter+Pune",
+      "thumbnail": "https://serpapi.com/searches/6605b59b2e7d6b2857d9f655/images/3fc3a4c737381627a39c0a34370e353dc7d711125546d2eb0261a345103a1566.png",
+      "gps_coordinates": {
+        "latitude": 18.5293115,
+        "longitude": 73.8277923
+      },
+      "links": {
+        "website": "http://furniturehousepune.com/",
+        "directions": "https://www.google.com/maps/dir//Arun+carpenter+%26+furniture+house,+22%2F206+Al+-+Firdous+,+gokhle+nagar,+Senapati+Bapat+Rd,+Janwadi,+Police+chowki,+Pune,+Maharashtra+411016,+India/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bc2bf48f44eee8b:0xca81cdb981a07f3d?sa=X&ved=2ahUKEwiCgJ3zyZeFAxVrefUHHS2jDgIQ48ADegQIARAA&hl=en&gl=us"
+      },
+      "title": "Arun carpenter & furniture house",
+      "type": "Carpenter",
+      "address": "22/206 Al - Firdous , gokhle nagar, Senapati Bapat Rd",
+      "years_in_business": "25+ years in business",
+      "phone": "+91 99303 96161",
+      "hours": "Closed ⋅ Opens 6 AM Fri"
+    },
+    {
+      "position": 19,
+      "rating": 4.8,
+      "reviews_original": "(87)",
+      "reviews": 87,
+      "description": "Onsite services·Online estimates",
+      "place_id": "10155143692567504347",
+      "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=us&google_domain=google.com&hl=en&location=Pune&ludocid=10155143692567504347&q=Carpenter+Pune",
+      "gps_coordinates": {
+        "latitude": 18.5287646,
+        "longitude": 73.9334306
+      },
+      "service_options": {
+        "onsite_services": true,
+        "online_estimates": true
+      },
+      "links": {
+        "website": "http://www.starcarpenterpune.com/",
+        "directions": "https://www.google.com/maps/dir//SNO,+Star+Carpenter+Pune,+UJAWAL+PRESS,+SNO'SA%2F1%2F10,+SA%2F1%2F10,+Mundhwa+-+Kharadi+Rd,+Pune,+Maharashtra+411036,+India/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bc2c1bebe4f0d89:0x8cee51625688e5db?sa=X&ved=2ahUKEwiCgJ3zyZeFAxVrefUHHS2jDgIQ48ADegQIAhAA&hl=en&gl=us"
+      },
+      "title": "Star Carpenter Pune",
+      "type": "Carpenter",
+      "address": "SNO, UJAWAL PRESS, SNO'SA/1/10, SA/1/10, Mundhwa - Kharadi Rd",
+      "phone": "+91 89482 64624",
+      "hours": "Closed ⋅ Opens 9 AM Fri"
+    },
+    {
+      "position": 20,
+      "rating": 4.9,
+      "reviews_original": "(156)",
+      "reviews": 156,
+      "description": "\"Am happy to recommend Manoj & his team and wish them the very best.\"",
+      "place_id": "9811158961890421158",
+      "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=us&google_domain=google.com&hl=en&location=Pune&ludocid=9811158961890421158&q=Carpenter+Pune",
+      "thumbnail": "https://serpapi.com/searches/6605b59b2e7d6b2857d9f655/images/3fc3a4c73738162724cae0981959d9e310be01bf04b9a4dedaef29ac51f8b6c9.png",
+      "gps_coordinates": {
+        "latitude": 18.4964559,
+        "longitude": 73.899997
+      },
+      "links": {
+        "website": "https://manojcarpenterservice.business.site/?utm_source=gmb&utm_medium=referral",
+        "directions": "https://www.google.com/maps/dir//shop+no+5,+Manoj+Carpenter+Service,+Prince+Hardware,+Memory+Craft,+Vitthal+Rao+Shivarkar+Rd,+Wanwadi,+Pune,+Maharashtra+411040,+India/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3bc2c1c6189fabbb:0x88283d18165e69a6?sa=X&ved=2ahUKEwiCgJ3zyZeFAxVrefUHHS2jDgIQ48ADegQIBxAA&hl=en&gl=us"
+      },
+      "title": "Manoj Carpenter Service",
+      "type": "Carpenter",
+      "address": "shop no 5, Prince Hardware, Memory Craft, Vitthal Rao Shivarkar Rd",
+      "years_in_business": "25+ years in business",
+      "phone": "+91 99603 11918",
+      "hours": "Closed ⋅ Opens 9 AM Fri"
+    }
+  ],
+  "pagination": {
+    "current": 1,
+    "next": "https://www.google.com/search?q=Carpenter+Pune&hl=en&gl=us&start=20&tbm=lcl",
+    "other_pages": {
+      "2": "https://www.google.com/search?q=Carpenter+Pune&hl=en&gl=us&start=20&tbm=lcl",
+      "3": "https://www.google.com/search?q=Carpenter+Pune&hl=en&gl=us&start=40&tbm=lcl",
+      "4": "https://www.google.com/search?q=Carpenter+Pune&hl=en&gl=us&start=60&tbm=lcl",
+      "5": "https://www.google.com/search?q=Carpenter+Pune&hl=en&gl=us&start=80&tbm=lcl"
+    }
+  },
+  "serpapi_pagination": {
+    "current": 1,
+    "next_link": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=us&google_domain=google.com&hl=en&location=Pune&q=Carpenter+Pune&start=20",
+    "next": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=us&google_domain=google.com&hl=en&location=Pune&q=Carpenter+Pune&start=20",
+    "other_pages": {
+      "2": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=us&google_domain=google.com&hl=en&location=Pune&q=Carpenter+Pune&start=20",
+      "3": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=us&google_domain=google.com&hl=en&location=Pune&q=Carpenter+Pune&start=40",
+      "4": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=us&google_domain=google.com&hl=en&location=Pune&q=Carpenter+Pune&start=60",
+      "5": "https://serpapi.com/search.json?device=desktop&engine=google_local&gl=us&google_domain=google.com&hl=en&location=Pune&q=Carpenter+Pune&start=80"
+    }
+  }
+}
