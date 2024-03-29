@@ -4,7 +4,9 @@ import Main from './components/Main';
 import Register from './components/Register';
 import AllServicesPage from './components/Allservice';
 import GetStarted from './components/getStarted/GetStarted';
-import Homes from './components/Homes/Homes';
+import Properties from './components/properties/Properties';
+import Community from './components/community/Community';
+import Navbar from './components/Navbar';
 
 import {
   BrowserRouter as Router,
@@ -18,12 +20,15 @@ function App() {
   return (
     <Router>
       <Switch>
+
         <Route path='/home'>
           <Home />
         </Route>
+
         <Route path='/services/electrical'>
           <Electrician />
         </Route>
+
         <Route path='/services'>
           <AllServicesPage />
         </Route>
@@ -32,14 +37,20 @@ function App() {
           <GetStarted />
         </Route>
 
-        <Route path='/homes'>
-          <Homes />
+        <Route path='/properties'>
+          <Properties />
+        </Route>
+
+        <Route path='/community'>
+          <Navbar />
+          <Community />
         </Route>
 
 
         <Route path='/register'>
           <Register />
         </Route>
+
         <Route path='/'>
           <Main />
         </Route>

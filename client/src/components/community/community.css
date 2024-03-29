@@ -1,0 +1,60 @@
+.container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    /* Light grey background */
+}
+
+.section h2 {
+    margin-bottom: 10px;
+    color: #333;
+    /* Dark grey text */
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.service-card {
+    width: calc(50% - 10px);
+    border: 1px solid #ccc;
+    /* Light grey border */
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+    /* White card background */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* Card shadow */
+    cursor: pointer;
+    /* Changes the mouse cursor to a pointer on hover */
+    border: none;
+    /* Removes the default button border */
+    outline: none;
+    /* Removes the focus outline */
+    background: none;
+    /* Removes the default button background */
+    transition: transform 0.1s ease;
+    /* Smooth transition for transform */
+}
+
+/* Add styles for hover effect on the service card buttons */
+.service-card:hover {
+    background-color: #e8e8e8;
+    /* Light grey background on hover */
+}
+
+/* Add styles for active/click effect on the service card buttons */
+.service-card:active {
+    transform: scale(0.95);
+    /* Scales down the card to 95% of its size when clicked */
+}
+
+/* Responsive design for smaller devices */
+@media (max-width: 768px) {
+    .service-card {
+        width: 100%;
+    }
+}

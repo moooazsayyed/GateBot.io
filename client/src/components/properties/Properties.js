@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import './Homes.css';
+import './properties.css';
 
-const Homes = () => {
+const Properties = () => {
     return (
         <div>
             <MainContent />
@@ -125,4 +125,4 @@ const MainContent = () => {
     );
 };
 
-export default Homes;
+export default Properties;
