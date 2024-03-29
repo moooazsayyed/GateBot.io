@@ -7,6 +7,7 @@ import GetStarted from './components/getStarted/GetStarted';
 import Properties from './components/properties/Properties';
 import Community from './components/community/Community';
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 
 import {
   BrowserRouter as Router,
@@ -41,6 +42,7 @@ function App() {
         <Route path='/home'>
           <Navbar />
           <Home />
+          <Footer />
         </Route>
 
         <Route path='/services/electrical'>
@@ -56,6 +58,7 @@ function App() {
         <Route path='/services'>
           <Navbar />
           <AllServicesPage />
+          <Footer />
         </Route>
 
         <Route path='/getstarted'>
@@ -65,11 +68,13 @@ function App() {
         <Route path='/properties'>
           <Navbar />
           <Properties />
+          <Footer />
         </Route>
 
         <Route path='/community'>
           <Navbar />
           <Community />
+          <Footer />
         </Route>
 
 

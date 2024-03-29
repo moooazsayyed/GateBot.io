@@ -92,7 +92,7 @@ export default function Home() {
                 </div>
             </div>
 
-            <div className="footer">
+            {/* <div className="footer">
                 <div className="container">
                     <div className="icon">
                         <Link to="#"><span role="img" aria-label="box">📦</span></Link>
@@ -111,7 +111,7 @@ export default function Home() {
                         <span>Services</span>
                     </div>
                 </div>
-            </div>
+            </div> */}
 
         </div>
     );

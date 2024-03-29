@@ -14,7 +14,7 @@ export default function Navbar() {
           <a href="#">🔍</a>
           <a href="visitor.html">🔔</a>
           <a href="community">💬</a>
-          <a href="#">👤</a>
+          <a href="details">👤</a>
         </div>
 
       </div>
