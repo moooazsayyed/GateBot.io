@@ -18,19 +18,38 @@ import Acrepair from './components/services/acrepair';
 import Carpenter from './components/services/carpenter';
 import UserData from './components/details';
 import AdminPage from './components/admin'; // Import the AdminPage component
-
+import Notices from './components/Notices';
+import PostNotice from './components/postnotice';
 // Import the components you want to include
 function App() {
   return (
     <Router>
       <Switch>
+        <Route path='/Notices'>
+          <Notices />
+        </Route>
+        <Route path='/Notice'>
+          <PostNotice />
+        </Route>
+        <Route path='/details'>
+          <UserData />
+        </Route>
 
+        <Route path='/admin'>
+          <AdminPage />
+        </Route>
         <Route path='/home'>
           <Home />
         </Route>
 
         <Route path='/services/electrical'>
           <Electrician />
+        </Route>
+        <Route path='/services/Acrepair'>
+          <Acrepair />
+        </Route>
+        <Route path='/services/carpenter'>
+          <Carpenter />
         </Route>
 
         <Route path='/services'>
