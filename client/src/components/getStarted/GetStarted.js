@@ -1,6 +1,6 @@
 import ImageSlider from "./ImageSlider";
 import "./get-started.css";
-
+import { Link } from "react-router-dom";
 
 const GetStarted = () => {
     const slides = [
@@ -12,8 +12,9 @@ const GetStarted = () => {
     ];
     const containerStyles = {
         width: "500px",
-        height: "1000px",
+        height: "900px",
         margin: "0 auto",
+        padding: "0.5cm"
     };
     return (
         <div>
@@ -24,7 +25,7 @@ const GetStarted = () => {
             <div>
                 <br></br><br></br><br></br>
                 <center>
-                    <button class="get-started-button">Get Started</button>
+                    <Link to="/" className="getstartedtxt">Get Started</Link>
                 </center>
             </div>
         </div>
