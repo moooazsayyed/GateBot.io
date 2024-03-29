@@ -2,14 +2,6 @@ import React, { useState } from 'react';
 import './properties.css';
 
 const Properties = () => {
-    return (
-        <div>
-            <MainContent />
-        </div>
-    );
-};
-
-const MainContent = () => {
     const [currentTestimonial, setCurrentTestimonial] = useState(0);
     const testimonials = document.querySelectorAll('.testimonial');
 
@@ -49,13 +41,13 @@ const MainContent = () => {
                         <label htmlFor="location-select">Finding in</label>
                         <select id="location-select">
                             <option value="bangalore">Bangalore</option>
-                            <option value="bangalore">Bangalore</option>
-                            <option value="bangalore">Bangalore</option>
-                            <option value="bangalore">Bangalore</option>
-                            <option value="bangalore">Bangalore</option>
-                            <option value="bangalore">Bangalore</option>
-                            <option value="bangalore">Bangalore</option>
-                            <option value="bangalore">Bangalore</option>
+                            <option value="pune">Pune</option>
+                            <option value="mumbai">Mumbai</option>
+                            <option value="kolkata">Kolkata</option>
+                            <option value="hyderabad">Hyderabad</option>
+                            <option value="jabalpur">Jabalpur</option>
+                            <option value="delhi">Delhi</option>
+                            <option value="dholakpur">Dholakpur</option>
                         </select>
                     </div>
                     <div className="search-bar">
