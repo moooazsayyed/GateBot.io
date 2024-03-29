@@ -190,6 +190,10 @@ html {
   width: 100%;
 }
 
+.iconbox {
+  font-size: 60px;
+}
+
 .iconbox p {
   font-size: 14px;
 }

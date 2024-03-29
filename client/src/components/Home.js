@@ -14,36 +14,16 @@ export default function Home() {
                     <div className="ad"><img src="https://etimg.etb2bimg.com/photo/90936610.cms" alt="" srcSet="" /></div>
                 </div>
 
-                <div className="approvelcontainer">
-                    <div className="approvelshortcut">
-                        <div className="quicklinks">
-                            <div className="quickbox">
-                                <div className="quickicon"><a href="#"><i className="fa-regular fa-message"></i></a></div>
-                                <p>Ask Society</p>
-                            </div>
 
-                            <div className="quickbox">
-                                <div className="quickicon"><a href="#"><i className="fa-regular fa-message"></i></a></div>
-                                <p>Ask Society</p>
-                            </div>
-
-                            <div className="quickbox">
-                                <div className="quickicon"><a href="#"><i className="fa-regular fa-message"></i></a></div>
-                                <p>Ask Society</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="viewall"><img src="Screenshot_2024-03-05-20-59-40-98_cec0ff1a8d35b2704de9ad34b9ffd42e.jpg" alt="" srcSet="" /></div>
-                </div>
 
                 <div className="quicklinks">
                     <div className="iconbox">
-                        <div className="serviceicon"><a href="#"><i className="fa-regular fa-message"></i></a></div>
+                        <div className="serviceicon">❓<a href="#"><i className="fa-regular fa-message"></i></a></div>
                         <p>Ask Society</p>
                     </div>
 
                     <div className="iconbox">
-                        <div className="serviceicon"><a href="#"><i className="fa-regular fa-credit-card"></i></a></div>
+                        <div className="serviceicon">💳<a href=""><i className="fa-regular fa-credit-card"></i></a></div>
                         <p>Payments</p>
                     </div>
 
@@ -53,7 +33,7 @@ export default function Home() {
                     </div>
 
                     <div className="iconbox">
-                        <div className="serviceicon"><a href="#"><i className="fa-brands fa-hornbill"></i></a></div>
+                        <div className="serviceicon">⚠️<a href="#"><i className="fa-brands fa-hornbill"></i></a></div>
                         <p>Raise Alert</p>
                     </div>
                 </div>

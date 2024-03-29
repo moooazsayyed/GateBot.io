@@ -25,7 +25,7 @@ const GetStarted = () => {
             <div>
                 <br></br><br></br><br></br>
                 <center>
-                    <Link to="/" className="getstartedtxt">Get Started</Link>
+                    <Link to="getstarted" className="getstartedtxt">Get Started</Link>
                 </center>
             </div>
         </div>

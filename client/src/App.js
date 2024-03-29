@@ -62,7 +62,7 @@ function App() {
         </Route>
 
         <Route path='/getstarted'>
-          <GetStarted />
+          <Main />
         </Route>
 
         <Route path='/properties'>
@@ -83,7 +83,7 @@ function App() {
         </Route>
 
         <Route path='/'>
-          <Main />
+          <GetStarted />
         </Route>
 
       </Switch>
