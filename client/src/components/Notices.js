@@ -14,7 +14,7 @@ const Notices = () => {
   useEffect(() => {
     async function fetchNotices() {
       try {
-        const response = await axios.get("http://localhost:8005/api/gatebot/notices");
+        const response = await axios.get("http://localhost:8005/api/gatebot/notice");
         setNotices(response.data.notices);
       } catch (error) {
         toast.error(error.message);

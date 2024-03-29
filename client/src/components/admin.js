@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { isValidPhoneNumber } from 'libphonenumber-js';
+import './AdminPage.css'; // Import the CSS file
+
 
 function AdminPage() {
   const [showPopup, setShowPopup] = useState(false);

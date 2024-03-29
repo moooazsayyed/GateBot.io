@@ -1,0 +1,29 @@
+# Build stage
+FROM node:14-alpine as build
+
+# Set the working directory
+WORKDIR /app
+
+# Copy the package.json and package-lock.json files
+COPY package*.json ./
+
+# Install dependencies
+RUN npm ci --silent
+
+# Copy the entire React application code
+COPY . .
+
+# Build the React application
+RUN npm start
+
+# Production stage
+FROM nginx:1.19-alpine
+
+# Copy the built React files to the Nginx html folder
+COPY --from=build /app/build /usr/share/nginx/html
+
+# Expose the port on which Nginx will run
+EXPOSE 8005
+
+# Start Nginx
+CMD ["nginx", "-g", "daemon off;"]

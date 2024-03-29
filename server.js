@@ -6,7 +6,7 @@ import morgan from "morgan";
 import { connectDB } from "./config/db.js";
 import authRoutes from "./routes/authRoutes.js";
 import categoryRoutes from "./routes/categoryRoutes.js"
-import noticeRoutes from "./routes/noticeRoutes.js"
+// import noticeRoutes from "./routes/noticeRoutes.js"
 // Configure environment variables
 dotenv.config();
 
@@ -28,7 +28,7 @@ app.use(morgan("dev"));
 // Routes
 app.use("/api/gatebot/auth", authRoutes);
 app.use("/api/gatebot/category", categoryRoutes);
-app.use("/api/gatebot",noticeRoutes);
+// app.use("/api/gatebot",noticeRoutes);
 // app.use("/api/gatebot/services",servicesRoutes)
 // Root route
 app.get("/", (req, res) => {

@@ -1,74 +1,60 @@
-import React, { useState } from "react";
-import axios from "axios";
-import { toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+import React, { useState } from 'react';
+import axios from 'axios';
 
-const PostNotice = () => {
-  const [notice, setNotice] = useState({
-    title: "",
-    description: ""
-  });
+const NoticeForm = () => {
+  const [title, setTitle] = useState('');
+  const [content, setContent] = useState('');
+  const [postedBy, setPostedBy] = useState('');
 
-  const handleSubmit = async (event) => {
-    event.preventDefault();
+  const handleSubmit = async (e) => {
+    e.preventDefault();
     try {
-      // Get the JWT token from localStorage
-      const token = localStorage.getItem("token");
-
-      // Set the Authorization header with the token
-      const headers = {
-        Authorization: `Bearer ${token}`
-      };
-
-      // Send the request with the token in the header
-      await axios.post("http://localhost:8005/api/gatebot/notice", notice, { headers });
-
-      toast.success("Notice posted successfully");
-      // Reset the notice state to clear the form fields
-      setNotice({
-        title: "",
-        description: ""
-      });
+      await axios.post('http://localhost:8005/api/gatebot/notice', { title, content, postedBy });
+      alert('Notice created successfully');
+      // Reset form fields
+      setTitle('');
+      setContent('');
+      setPostedBy('');
     } catch (error) {
-      // Log the error to the console for debugging
-      console.error("Error posting notice:", error.response);
-      // Display an error toast message
-      toast.error("Failed to post notice");
+      alert('Failed to create notice');
+      console.error(error);
     }
-  };
-
-  const handleChange = (event) => {
-    // Update the notice state with the new value for the field
-    setNotice({ ...notice, [event.target.name]: event.target.value });
   };
 
   return (
     <div>
-      <h2>Post New Notice</h2>
+      <h2>Create a Notice</h2>
       <form onSubmit={handleSubmit}>
-        <div>
-          <label>Title</label>
+        <label>
+          Title:
           <input
             type="text"
-            name="title"
-            value={notice.title}
-            onChange={handleChange}
-            placeholder="Enter title"
+            value={title}
+            onChange={(e) => setTitle(e.target.value)}
+            required
           />
-        </div>
-        <div>
-          <label>Description</label>
+        </label>
+        <label>
+          Content:
           <textarea
-            name="description"
-            value={notice.description}
-            onChange={handleChange}
-            placeholder="Enter description"
-          ></textarea>
-        </div>
-        <button type="submit">Post Notice</button>
+            value={content}
+            onChange={(e) => setContent(e.target.value)}
+            required
+          />
+        </label>
+        <label>
+          Posted By:
+          <input
+            type="text"
+            value={postedBy}
+            onChange={(e) => setPostedBy(e.target.value)}
+            required
+          />
+        </label>
+        <button type="submit">Submit</button>
       </form>
     </div>
   );
 };
 
-export default PostNotice;
+export default NoticeForm;
