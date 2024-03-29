@@ -103,7 +103,6 @@ export default function Home() {
             <div className="msgcontainer">
                 <div className="msgtop-bar">
                     <div className="msgprofile">
-                        <img src="https://preview.redd.it/htd1cssoujc51.png?auto=webp&s=ea7a4436e56a4e9e5da43549b7bb90aefd842195" alt="Profile Icon" />
                         <div className="profile-info">
                             <span className="name">Your Name</span>
                             <span className="flat6no">Flat6 No</span>
