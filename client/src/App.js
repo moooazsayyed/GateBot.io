@@ -39,6 +39,7 @@ function App() {
           <AdminPage />
         </Route>
         <Route path='/home'>
+          <Navbar />
           <Home />
         </Route>
 
@@ -53,6 +54,7 @@ function App() {
         </Route>
 
         <Route path='/services'>
+          <Navbar />
           <AllServicesPage />
         </Route>
 
@@ -61,6 +63,7 @@ function App() {
         </Route>
 
         <Route path='/properties'>
+          <Navbar />
           <Properties />
         </Route>
 

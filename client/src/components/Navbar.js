@@ -13,7 +13,7 @@ export default function Navbar() {
         <div className="icons">
           <a href="#">🔍</a>
           <a href="visitor.html">🔔</a>
-          <a href="#">💬</a>
+          <a href="community">💬</a>
           <a href="#">👤</a>
         </div>
 
