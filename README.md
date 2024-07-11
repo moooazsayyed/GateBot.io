@@ -27,18 +27,16 @@ Follow these steps to set up the application on your local machine:
 **Install Dependencies**:
    ```sh
    npm install
-   sh````
+   sh```
 
 **Running the Application**
-
 Start the Server:
 To start the application server, run:
 
 ```sh
 npm start server
-
-**Usage
-**
+```sh
+**Usage**
 Once the application is running, you can interact with the web interface. The aplication is designed to assist with various gate-related queries.
 
 Contributing
