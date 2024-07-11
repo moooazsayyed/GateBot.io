@@ -27,9 +27,10 @@ Follow these steps to set up the application on your local machine:
 **Install Dependencies**:
    ```sh
    npm install
+   sh````
 
-**Running the Application
-**
+**Running the Application**
+
 Start the Server:
 To start the application server, run:
 
